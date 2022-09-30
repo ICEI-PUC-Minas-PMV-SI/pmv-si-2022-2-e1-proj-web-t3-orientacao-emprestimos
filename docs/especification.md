@@ -1,25 +1,16 @@
 # Especificações do Projeto
 
-Devido a grande demanda por empréstimos bancários e a grande variedade de  empréstimos que você pode encontrar ao pesquisar na internet, nosso web app tem como ideia organizar essas opções e apresentar algumas alternativas para que usuários iniciantes possam identificar com mais facilidade instituições confiáveis e possíveis abusos de juros taxas para encontrar o empréstimo que mais se adequa ao perfil do cliente.
+Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Com isso, pretendemos mostrar algumas opções de empréstimo e alguns conteúdos, materiais e vídeos de influenciadores que são mais relevantes sobre o assunto.
-
+Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+José tem 60 anos e é um recém aposentado que mora em Londrina, Paraná. Ele esteve em Londrina durante toda a sua vida, criou seus 3 filhos e vive ao lado de sua esposa. Ele formou-se em Pedagogia e exerceu a profissão durante 40 anos. Fez um empréstimo para pagar as contas de seu advogado em uma ação judicial envolvendo uma de suas propriedades. Tudo ficou em R$15.000 Ele não tinha esse dinheiro, então teve que fazer um empréstimo consignado. Com R$500 de sua aposentadoria usados diretamente para pagar o empréstimo, José diz que tem medo de tentar crédito não consignado e evita mais dívidas em seu cartão de crédito.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Samuel tem 31 anos e é formado em engenharia civil. Vive em São Paulo, é casado e sua esposa está grávida. Ele nunca se interessou por economia, mercados financeiros e outras disciplinas relacionadas. Sempre gasta toda sua renda às pressas. Está procurando uma agência para ajudá-lo a encontrar as melhores taxas para um financiamento bancário para fazer uma reforma em sua casa, para a construção do quarto para o seu primeiro filho que irá nascer. Seu objetivo profissional é se especializar em recursos energéticos. Atualmente, Samuel quer investir em sua educação financeira para ter uma vida mais estável, mas ele nunca teve uma orientação de como ganhar mais dinheiro e como gastar seu salário, então ele busca na internet ferramentas que possam ajudá-lo em sua educação financeira.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Bruno tem 18 anos e faz 3 meses que conseguiu o primeiro emprego e acabou de se matricular na faculdade, no curso de Análise e Desenvolvimento de Sistemas. Reside em Osasco, São Paulo, mora com os pais. Essa é a primeira vez que precisa administrar dinheiro e ainda não consegue fazer uma boa gestão do seu salário e nem um planejamento financeiro. Se deparou com o primeiro imprevisto que exige recurso financeiro, ele precisa pagar a matrícula da faculdade e comprar um computador para realizar atividades do curso. Como Bruno está empregado faz pouco tempo, o cartão de crédito que possui não tem o limite suficiente para pagar a matrícula e comprar um computador, então está procurando por empréstimo consignado para iniciar seus estudos.
 
 ## Histórias de Usuários
 

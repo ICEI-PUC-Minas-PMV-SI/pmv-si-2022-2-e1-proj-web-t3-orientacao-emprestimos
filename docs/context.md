@@ -12,17 +12,24 @@ Originalmente ao Banco Central, como órgão de supervisão do sistema financeir
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do projeto é prover uma plataforma, por meio de aplicação web, que ofereça aos consumidores a possibilidade de consultar a conformidade desses correspondentes bancários, que não raro estabelecem contatos iniciais por vezes de maneira abusiva, e comparar suas ofertas de empréstimo com os parâmetros concorrenciais do mercado.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos podemos citar:   	
+
+- Auxiliar os tomadores de empréstimo com informações de mercado comparativas, diminuindo a exposição daqueles às ofertas abusivas.
+Receber demandas dos usuários e prestar serviços de assessoria personalizada na identificação das melhores modalidades de crédito e as instituições ofertantes das melhores condições comerciais (taxas de juros, prazos etc.)
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Aumentar o contato das instituições com o público final, guiando o público entre as principais modalidades de crédito consignado e instituições ofertantes, sejam bancos, fintechs, financeiras, cooperativas de crédito ou demais agentes credenciados.
+
 
 ## Justificativa
 
-A pandemia do Covid-19 acelerou a digitalização da economia mundial, e no Brasil, além do incremento adicional das operações de e-commerce, elevou o patamar de utilização de serviços financeiros digitais. Esse cenário foi impulsionado, ainda, pelos pagamentos de transferência de renda e do auxílio emergencial às parcelas mais vulneráveis da população. Por fim, e não menos importante, o advento do Pix, método de pagamento instantâneo do Banco Central gratuito para pessoas físicas, permitiu transferências imediatas sem limitações de horários do expediente comercial bancário e estimulou a adoção dos pagamentos digitais no Brasil, trazendo ainda mais inclusão financeira.  	
-Contudo, persiste na maioria da população a carência de conhecimentos de educação financeira, que além de fenômenos estruturais como desemprego e inflação, explicam parcialmente os atuais elevados índices de inadimplência (quase 79% dos lares brasileiros atrasam o pagamento de contas de consumo ou de dívidas em agosto de 2022), consoante resultados divulgados pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) na Pesquisa de Endividamento e Inadimplência do Consumidor (Peic)[2].
+Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+
+O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+
+> **Links Úteis**:
+> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 

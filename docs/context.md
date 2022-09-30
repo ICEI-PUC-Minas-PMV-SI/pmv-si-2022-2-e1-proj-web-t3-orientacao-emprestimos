@@ -24,12 +24,11 @@ Receber demandas dos usuários e prestar serviços de assessoria personalizada n
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A pandemia do Covid-19 acelerou a digitalização da economia mundial, e no Brasil, além do incremento adicional das operações de e-commerce, elevou o patamar de utilização de serviços financeiros digitais. Esse cenário foi impulsionado, ainda, pelos pagamentos de transferência de renda e do auxílio emergencial às parcelas mais vulneráveis da população. Por fim, e não menos importante, o advento do Pix, método de pagamento instantâneo do Banco Central gratuito para pessoas físicas, permitiu transferências imediatas sem limitações de horários do expediente comercial bancário e estimulou a adoção dos pagamentos digitais no Brasil, trazendo ainda mais inclusão financeira.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Contudo, persiste na maioria da população a carência de conhecimentos de educação financeira, que além de fenômenos estruturais como desemprego e inflação, explicam parcialmente os atuais elevados índices de inadimplência (quase 79% dos lares brasileiros atrasam o pagamento de contas de consumo ou de dívidas em agosto de 2022), consoante resultados divulgados pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) na Pesquisa de Endividamento e Inadimplência do Consumidor (Peic)[2].
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Nessa perspectiva, vislumbram-se oportunidades de soluções tecnológicas de negócios que propiciem ferramentas de validação das ofertas de crédito consignado perante o público em geral, oferecendo serviços de assessoria e consultoria para contratação de operações de crédito consignado, e não menos importante, atualizem e reforcem o papel das competências de educação financeira para a contratação de crédito de maneira responsável e consciente, principalmente em face dos elevados níveis de inadimplência e do fenômeno do Superendividamento, que acomete principalmente as parcelas mais vulneráveis da população de nosso país.
 
 ## Público-Alvo
 

@@ -21,9 +21,8 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A pandemia do Covid-19 acelerou a digitalização da economia mundial, e no Brasil, além do incremento adicional das operações de e-commerce, elevou o patamar de utilização de serviços financeiros digitais. Esse cenário foi impulsionado, ainda, pelos pagamentos de transferência de renda e do auxílio emergencial às parcelas mais vulneráveis da população. Por fim, e não menos importante, o advento do Pix, método de pagamento instantâneo do Banco Central gratuito para pessoas físicas, permitiu transferências imediatas sem limitações de horários do expediente comercial bancário e estimulou a adoção dos pagamentos digitais no Brasil, trazendo ainda mais inclusão financeira.  	
+Contudo, persiste na maioria da população a carência de conhecimentos de educação financeira, que além de fenômenos estruturais como desemprego e inflação, explicam parcialmente os atuais elevados índices de inadimplência (quase 79% dos lares brasileiros atrasam o pagamento de contas de consumo ou de dívidas em agosto de 2022), consoante resultados divulgados pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) na Pesquisa de Endividamento e Inadimplência do Consumidor (Peic)[2].
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)

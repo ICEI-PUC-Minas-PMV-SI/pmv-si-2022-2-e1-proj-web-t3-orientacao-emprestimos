@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Matheus de Oliveira Souza Santos
 * Gabriel Alves Aredes Moraes
 * Rafael Martins da Silva
-* Nome completo do aluno 4
+* Marcio Henrique Santos de Queiroz
 * Nome completo do aluno 5
 
 ## Orientador

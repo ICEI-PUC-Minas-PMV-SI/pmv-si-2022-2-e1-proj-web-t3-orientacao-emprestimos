@@ -5,16 +5,10 @@ Em particular, o crédito consignado caracteriza-se por suas vantagens de diminu
 Originalmente ao Banco Central, como órgão de supervisão do sistema financeiro nacional, reside a tarefa de fiscalizar a atuação de promotoras de crédito e correspondentes bancários, que devem apresentar políticas rígidas de segurança e de práticas adequadas de oferta ao consumidor. Não obstante, as próprias instituições financeiras reunidas na Federação Brasileira de Bancos (FEBRABAN), principal entidade representativa do setor, convencionaram em aprovar e instituir a Autorregulação Bancária: “conjunto de normas criadas pelo próprio setor com o propósito de contribuir para um ambiente que permita aos bancos atuar de forma ainda mais eficaz, clara e transparente, em benefício do segmento, dos consumidores e da sociedade como um todo"[1]. As instituições financeiras buscam práticas e ideias para o fortalecimento da  educação financeira e capacitação de agentes de promoção de crédito (correspondentes bancários), que possuem grande capilaridade nas áreas mais remotas do país.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+- A tradicional assimetria de informação entre empresas de crédito e consumidores neste mercado eventualmente pode incentivar a oferta de propostas com taxas abusivas ou muito superiores aos padrões comerciais estabelecidos, onerando clientes (principalmente os mais vulneráveis como aposentados) e prejudicando a credibilidade do mercado.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+- No mesmo passo, condutas fraudulentas oportunizadas pelos recursos tecnológicos, além dos prejuízos individuais gerados às vítimas, comprometem a confiança do consumidor e a confiabilidade do mercado de crédito consignado. Determinados grupos sociais como aposentados e pessoas com pouca educação financeira têm sido alvos preferenciais dessas condutas.
 
 ## Objetivos
 

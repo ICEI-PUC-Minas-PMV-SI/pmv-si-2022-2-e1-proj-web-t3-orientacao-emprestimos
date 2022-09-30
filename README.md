@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Gabriel Alves Aredes Moraes
 * Rafael Martins da Silva
 * Marcio Henrique Santos de Queiroz
-* Nome completo do aluno 5
+
 
 ## Orientador
 

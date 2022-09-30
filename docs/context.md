@@ -33,13 +33,24 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Trabalhadores da iniciativa privada ou servidores da administração pública, ativos e/ou inativos, de 18 a 75 anos, dos mais diversos níveis de instrução, com renda mensal entre um salário mínimo ou superior, e que desejem contratar ou efetuar portabilidade de operação de crédito consignado perante às instituições financeiras do mercado de crédito.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+## Referências
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+[1] Febraban - Autorregulação Bancária (autorregulacaobancaria.com.br)
+[2] Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) – agosto de 2022 (portaldocomercio.org.br)
+
+Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) – agosto de 2022 (portaldocomercio.org.br)
+https://www.portaldocomercio.org.br/publicacoes/pesquisa-de-endividamento-e-inadimplencia-do-consumidor-peic-agosto-de-2022/439801
+
+Febraban - Autorregulação Bancária (autorregulacaobancaria.com.br) 
+https://www.autorregulacaobancaria.com.br/
+
+Febraban - A FEBRABAN           	
+https://portal.febraban.org.br/pagina/3031/9/pt-br/institucional
+
+Banco Central do Brasil (bcb.gov.br)]
+https://www.bcb.gov.br/
+
+
+

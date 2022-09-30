@@ -38,6 +38,7 @@ Trabalhadores da iniciativa privada ou servidores da administração pública, a
 ## Referências
 
 [1] Febraban - Autorregulação Bancária (autorregulacaobancaria.com.br)
+
 [2] Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) – agosto de 2022 (portaldocomercio.org.br)
 
 Pesquisa de Endividamento e Inadimplência do Consumidor (Peic) – agosto de 2022 (portaldocomercio.org.br)

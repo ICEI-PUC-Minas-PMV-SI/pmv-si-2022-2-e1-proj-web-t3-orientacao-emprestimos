@@ -24,9 +24,6 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 A pandemia do Covid-19 acelerou a digitalização da economia mundial, e no Brasil, além do incremento adicional das operações de e-commerce, elevou o patamar de utilização de serviços financeiros digitais. Esse cenário foi impulsionado, ainda, pelos pagamentos de transferência de renda e do auxílio emergencial às parcelas mais vulneráveis da população. Por fim, e não menos importante, o advento do Pix, método de pagamento instantâneo do Banco Central gratuito para pessoas físicas, permitiu transferências imediatas sem limitações de horários do expediente comercial bancário e estimulou a adoção dos pagamentos digitais no Brasil, trazendo ainda mais inclusão financeira.  	
 Contudo, persiste na maioria da população a carência de conhecimentos de educação financeira, que além de fenômenos estruturais como desemprego e inflação, explicam parcialmente os atuais elevados índices de inadimplência (quase 79% dos lares brasileiros atrasam o pagamento de contas de consumo ou de dívidas em agosto de 2022), consoante resultados divulgados pela Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC) na Pesquisa de Endividamento e Inadimplência do Consumidor (Peic)[2].
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações

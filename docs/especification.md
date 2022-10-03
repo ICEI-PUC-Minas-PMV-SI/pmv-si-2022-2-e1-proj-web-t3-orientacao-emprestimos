@@ -1,8 +1,10 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Devido a grande demanda por empréstimos bancários e a grande variedade de  empréstimos que você pode encontrar ao pesquisar na internet, nosso web app tem como ideia organizar essas opções e apresentar algumas alternativas para que usuários iniciantes possam identificar com mais facilidade instituições confiáveis e possíveis abusos de juros taxas para encontrar o empréstimo que mais se adequa ao perfil do cliente.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Com isso, pretendemos mostrar algumas opções de empréstimo e alguns conteúdos e materiais que são mais relevantes sobre o assunto.
+
+
 
 ## Personas
 

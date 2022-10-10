@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Fluxo de usuário contendo as principais ações que o usuário pode executar dentro da aplicação, a fim de demonstrar o comportamento das páginas em alto nível.
 
-![UserFlow do frontend](img/userflow-final.jpg)
+![UserFlow do frontend](img/userflow-final.png)
 
 
 ## Wireframes

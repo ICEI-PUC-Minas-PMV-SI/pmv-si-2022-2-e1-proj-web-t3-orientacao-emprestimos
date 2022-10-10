@@ -14,15 +14,60 @@ Fluxo de usuário contendo as principais ações que o usuário pode executar de
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+É um protótipo de baixa fidelidade que descreve a estrutura das páginas e sua relação com os requisitos funcionais e não funcionais da aplicação.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+A página **Entrar Conta** permite que o usuário se autentique na aplicação usando Email e Senha. Esse comportamento atende ao requisito funcional RF-001.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-entrar.jpg">
+</p>
+
+A página **Criar Conta** permite que o usuário se cadastre na aplicação informando Nome, Email, CPF e Senha. Esse comportamento atende ao requisito funcional RF-002.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-cadastrar.jpg">
+</p>
+
+A página **Alterar Conta** permite que o usuário altere dados cadastrais da conta como Nome, Email e CPF. Esse comportamento atende ao requisito funcional RF-002.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-alterar.jpg">
+</p>
+
+A página **Excluir Conta** permite que o usuário exclua a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-002.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-excluir.jpg">
+</p>
+
+
+A página **Consultar Conta** permite que o usuário exclua a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-002.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-consultar.jpg">
+</p>
+
+A página **Análise Proposta** permite que o usuário envie os dados de uma proposta de crédito consignado para análise da nossa equipe de Analistas de Crédito. Esse comportamento atende ao requisito funcional RF-003.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-analise.jpg">
+</p>
+
+O email transacional **Solicitação Análise** permite que o nosso time de crédito o usuário visualize a solicitação de análise que foi enviada pelo usuário. Esse comportamento atende ao requisito funcional RF-005.
+
+<p align="center">
+ <img width="700" src="img/wireframe-email-solicitacao-analise.jpg">
+</p>
+
+A página **Início** permite que o usuário acesse conteúdos sobre educação financeira e maiores detalhes sobre como a aplicação pode ajuda-lo na contratação de empréstimo consignado. Esse comportamento atende ao requisito funcional RF-006.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-inicio.jpg">
+</p>
+
+A página **Ofertas** permite que o usuário acesse ofertas de crédito consignado de determinadas instituições financeira, filtre ofertas de uma instituição específica e envie avalição da sua experiência na contratação desse produto financeiro. Esse comportamento atende ao requisito funcional RF-007, RF-008 e RF-009.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-ofertas.jpg">
+</p>
+

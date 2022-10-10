@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: gra;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+@font-face {
+    font-family: 'GraphikLight';
+    src: url('../font/GraphikBlack/GraphikLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GraphikBlack';
+    src: url('../font/GraphikBlack/GraphikBlack.otf') format('opentype');
+}
+
+.navbar {
+    font-family: 'GraphikLight';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #EDF0EF;
+    color: #6F7974;
+}
+
+.nav-links a {
+    font-family: 'GraphikLight';
+    font-size: 17px;
+    color: #6F7974;
+}
+
+.nomeproj {
+    font-family: 'GraphikLight';
+    font-size: 27px;
+    color: #51B68E;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+
+}
+
+.menu li:hover {
+    border-radius: 5px;
+    -webkit-transform: scale(0.5);
+    transform: scale(1.1);
+}
+
+.menu li {
+    padding: 5px 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu li:last-child a {
+    color: #49E295;
+
+}
+
+.services {
+    position: relative;
+}
+
+.dropdown {
+
+    display: none;
+
+}
+
+.dropdown li {
+    margin-top: 10px;
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+
+    background-color: #6F7974;
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.responsivo {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+.conteudo {
+    color: #6f7974;
+    font-family: 'GraphikLight';
+    width: 760px;
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 0, 5px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.conteudo h1 {
+    color: #6f7974;
+    font-family: 'GraphikBlack';
+    font-size: 52px;
+    font-weight: 100;
+    margin-top: 75px;
+    line-height: 55px;
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: block;
+    clear: none;
+    z-index: auto;
+    text-align: center;
+}
+
+.conteudo h2 {
+    color: #6f7974;
+    font-family: 'GraphikLight';
+    width: 760px;
+    font-weight: 100;
+    margin-top: 40px;
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: block;
+    clear: none;
+    z-index: auto;
+    font-size: 20px;
+    letter-spacing: 0, 5px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.topicos {
+    font-family: 'GraphikLight';
+    margin-top: 40px;
+    color: #51B68E;
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.sub_titulo {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.conteudo p {
+    margin-top: 40px;
+
+
+}
+
+.login {
+    text-align: center;
+}
+
+#edufin {
+    max-width: 400px;
+    max-height: 350px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#edufin:hover {
+    -webkit-transform: scale(0.5);
+    transform: scale(1.1);
+}
+
+#pilares {
+    max-width: 400px;
+    max-height: 350px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#pilares:hover {
+    -webkit-transform: scale(0.5);
+    transform: scale(1.1);
+
+}
+
+#link {
+    color: #49E295;
+}
+footer {
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #EDF0EF;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #EDF0EF;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li {
+        margin-top: 12px;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1);
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .responsivo {
+        display: block;
+    }
+
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+    }
+
+    .conteudo {
+        color: #6f7974;
+        font-family: 'GraphikLight';
+        width: auto;
+        margin: auto;
+        font-size: 15px;
+        letter-spacing: 0, 5px;
+        line-height: 28px;
+        text-align: justify;
+    }
+
+    .conteudo h1 {
+        color: #1F2D27;
+        font-family: 'GraphikLight';
+        font-size: 32px;
+
+    }
+
+    .conteudo h2 {
+        color: #6f7974;
+        font-family: 'GraphikLight';
+        width: 760px;
+        font-weight: 100;
+        margin-top: 40px;
+        position: static;
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+        float: none;
+        display: block;
+        clear: none;
+        z-index: auto;
+        font-size: 15px;
+        letter-spacing: 0, 5px;
+        line-height: 28px;
+        font-weight: bold;
+    }
+
+    .topicos {
+        font-family: 'GraphikLight';
+        margin-top: 40px;
+        color: #51B68E;
+        margin-left: 45px;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+    .sub_titulo {
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .conteudo p {
+        margin-top: 40px;
+    }
+
+    img {
+        max-width: 300px;
+        width: 100%;
+        max-height: 250px;
+        height: 100%;
+        margin-top: 40px;
+        align-items: center;
+
+
+    }
+
+    #pilares {
+        max-width: 400px;
+        max-height: 350px;
+        margin-top: 40px;
+        align-items: center;
+        margin-left: 180px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    #pilares:hover {
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1);
+
+    }
+
+    footer {
+        margin-top: 50px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background-color: #EDF0EF;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 668px) {
+    #edufin {
+        max-width: 200px;
+        width: 100%;
+        max-height: 150px;
+        height: 100%;
+        margin-top: 40px;
+        align-items: center;
+
+
+    }
+
+    #pilares {
+        max-width: 200px;
+        width: 100%;
+        max-height: 150px;
+        height: 100%;
+        margin-top: 40px;
+        align-items: center;
+        margin-left: 180px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    #pilares:hover {
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1);
+
+    }
+
+    .topicos {
+        font-family: 'GraphikLight';
+        margin-top: 40px;
+        color: #51B68E;
+        margin-left: 45px;
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+
+    footer {
+        margin-top: 50px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background-color: #EDF0EF;
+        padding: 10px;
+    }
+}

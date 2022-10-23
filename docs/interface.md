@@ -52,6 +52,12 @@ A página **Análise Proposta** permite que o usuário envie os dados de uma pro
  <img width="700" src="img/wireframe-pagina-analise.jpg">
 </p>
 
+A página **Histórico Análises** permite que o usuário visualize o histórico de análises de proposta que foram submetidas na aplicação através da página **Análise Proposta**. Esse comportamento atende ao requisito funcional RF-004.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-historico.jpg">
+</p>
+
 O email transacional **Solicitação Análise** permite que o nosso time de crédito o usuário visualize a solicitação de análise que foi enviada pelo usuário. Esse comportamento atende ao requisito funcional RF-005.
 
 <p align="center">

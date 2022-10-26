@@ -35,14 +35,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que o usuário cadastrado realize seu login informando e-mail e senha | ALTA |  |
+|RF-001| O sistema deve permitir que o usuário cadastrado realize seu login informando e-mail e senha | ALTA | Matheus |
 |RF-002| O sistema deve permitir que o usuário gerencie seu cadastro   | ALTA | |
-|RF-003| O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado   | ALTA | |
+|RF-003| O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado   | ALTA | Rafael |
 |RF-004| Todo formulário que for submetido para análise entrará na lista do usuário com o status de pendente   | ALTA | |
 |RF-005| Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente   | ALTA | |
-|RF-006| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira   | MÉDIA | |
-|RF-007| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais   | ALTA | |
-|RF-008| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador   | MÉDIA | |
+|RF-006| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira   | MÉDIA | Matheus |
+|RF-007| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais   | ALTA | Gabriel |
+|RF-008| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador   | MÉDIA | Gabriel |
 |RF-009| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema   | MÉDIA | |
 
 

@@ -4,8 +4,6 @@ Devido a grande demanda por empréstimos bancários e a grande variedade de  emp
 
 Com isso, pretendemos mostrar algumas opções de empréstimo e alguns conteúdos e materiais que são mais relevantes sobre o assunto.
 
-
-
 ## Personas
 
 José tem 60 anos e é um recém aposentado que mora em Londrina, Paraná. Ele esteve em Londrina durante toda a sua vida, criou seus 3 filhos e vive ao lado de sua esposa. Ele formou-se em Pedagogia e exerceu a profissão durante 40 anos. Fez um empréstimo para pagar as contas de seu advogado em uma ação judicial envolvendo uma de suas propriedades. Tudo ficou em R$15.000 Ele não tinha esse dinheiro, então teve que fazer um empréstimo consignado. Com R$500 de sua aposentadoria usados diretamente para pagar o empréstimo, José diz que tem medo de tentar crédito não consignado e evita mais dívidas em seu cartão de crédito.
@@ -33,18 +31,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que o usuário cadastrado realize seu login informando e-mail e senha | ALTA | Matheus |
-|RF-002| O sistema deve permitir que o usuário gerencie seu cadastro   | ALTA | |
-|RF-003| O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado   | ALTA | Rafael |
-|RF-004| Todo formulário que for submetido para análise entrará na lista do usuário com o status de pendente   | ALTA | |
-|RF-005| Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente   | ALTA | |
-|RF-006| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira   | MÉDIA | Matheus |
-|RF-007| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais   | ALTA | Gabriel |
-|RF-008| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador   | MÉDIA | Gabriel |
-|RF-009| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema   | MÉDIA | |
-
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| O sistema deve permitir que o usuário cadastrado realize seu login informando e-mail e senha | ALTA |
+|RF-002| O sistema deve permitir que o usuário crie uma conta | ALTA |
+|RF-003| O sistema deve permitir que o usuário edite os dados do seu cadastro | ALTA |
+|RF-004| O sistema deve permitir que o usuário consulte os dados do seu cadastro | ALTA |
+|RF-004| O sistema deve permitir que o usuário exclua seu cadastro | ALTA |
+|RF-005| O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado | ALTA |
+|RF-006| Todo formulário que for submetido para análise entrará na lista do usuário com o status de pendente | ALTA |
+|RF-007| Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente | ALTA |
+|RF-008| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira | MÉDIA |
+|RF-009| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais | ALTA |
+|RF-010| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador | MÉDIA |
+|RF-011| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema | MÉDIA |
 
 ### Requisitos não Funcionais
 

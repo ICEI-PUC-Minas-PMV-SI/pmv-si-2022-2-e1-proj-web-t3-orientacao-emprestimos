@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+    <title>Análise</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nomeproj">ConsigFácil</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="responsivo">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="analise.html">Análise</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <div class="analise">
+            <h2> Análise de Crédito Consignado </h1><br>
+            <article>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia voluptate nesciunt earum. Molestias dicta voluptates eveniet ex rerum mollitia! Quidem a fuga voluptate animi iusto. Sapiente molestiae vero repudiandae dolore.
+                </p>
+            </article><br><br>
+            <form class="analise">
+                <label for="instituicao_financ">Instituição financeira:</label><br>
+                <select id="bancos" name="bancos">
+                    <option value="Banco São Paulo 123">Banco São Paulo 123</option>
+                    <option value="Banco Minas Gerais 435">Banco Minas Gerais 435</option>
+                    <option value="Banco Rio de Janeiro 049">Banco Rio de Janeiro 049</option>
+                </select><br><br>
+
+                <label for="quantidade_parcelas">Quantidade parcelas:</label><br>
+                <input type="text" id="quantidade_parcelas" name="quantidade_parcelas"><br><br>
+                <label for="valor_parcela">Valor cada parcela:</label><br>
+                <input type="text" id="valor_parcela" name="valor_parcela"><br><br>
+                <button type="button" id="enviar" name="enviar">Enviar</buttton><br><br>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

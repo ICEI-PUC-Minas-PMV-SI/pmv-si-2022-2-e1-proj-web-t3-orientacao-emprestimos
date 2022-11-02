@@ -158,6 +158,58 @@ input[type=checkbox] {
     font-weight: bold;
 }
 
+.analise {
+    color: #6f7974;
+    font-family: 'GraphikLight';
+    width: 760px;
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 0, 5px;
+    line-height: 28px;
+    text-align: justify;
+}
+	
+.analise h2 {
+    color: #6f7974;
+    font-family: 'GraphikBlack';
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 75px;
+    line-height: 55px;
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: block;
+    clear: none;
+    z-index: auto;
+    text-align: center;
+}
+
+	
+.analise form {
+    display: flex;
+    align-items: center;
+    color: #1a6e44;
+    font-family: 'GraphikBlack';
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 75px;
+    line-height: 55px;
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: block;
+    clear: none;
+    z-index: auto;
+    text-align: center;
+}
+
 .topicos {
     font-family: 'GraphikLight';
     margin-top: 40px;
@@ -165,14 +217,12 @@ input[type=checkbox] {
     margin-left: 45px;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .sub_titulo {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-
 }
 
 .conteudo p {

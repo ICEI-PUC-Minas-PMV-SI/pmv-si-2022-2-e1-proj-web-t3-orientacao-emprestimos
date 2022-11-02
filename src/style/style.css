@@ -17,7 +17,6 @@ li {
     list-style: none;
 }
 
-
 @font-face {
     font-family: 'GraphikLight';
     src: url('../font/GraphikBlack/GraphikLight.otf') format('opentype');
@@ -80,9 +79,7 @@ li {
 }
 
 .dropdown {
-
     display: none;
-
 }
 
 .dropdown li {
@@ -93,7 +90,6 @@ li {
 }
 
 .dropdown li:hover {
-
     background-color: #6F7974;
 }
 
@@ -181,23 +177,25 @@ input[type=checkbox] {
 
 .conteudo p {
     margin-top: 40px;
-
-
 }
 
 #login {
     text-align: center;
 }
+
 #login_title{
     font-size: 40px;
     font-weight: 50px;
 }
+
 #usuario{
     border-radius: 20px;
 }
+
 #senha{
     border-radius: 20px;
 }
+
 #submit{
     color: white;
     border-style: outset;
@@ -208,11 +206,11 @@ input[type=checkbox] {
     transition: all 0.5s;
     cursor: pointer;
 }
+
 #submit:hover{
     -webkit-transform: scale(0.5);
     transform: scale(1.1);
 }
-
 
 #edufin {
     max-width: 400px;
@@ -222,7 +220,6 @@ input[type=checkbox] {
     margin-left: 180px;
     transition: all 0.5s;
     cursor: pointer;
-
 }
 
 #edufin:hover {
@@ -243,12 +240,12 @@ input[type=checkbox] {
 #pilares:hover {
     -webkit-transform: scale(0.5);
     transform: scale(1.1);
-
 }
 
 #link {
     color: #49E295;
 }
+
 footer {
     margin-top: 50px;
     bottom: 0;
@@ -346,7 +343,6 @@ footer {
         font-size: 24px;
         text-align: center;
         font-weight: bold;
-
     }
 
     .conteudo p {
@@ -360,8 +356,6 @@ footer {
         height: 100%;
         margin-top: 40px;
         align-items: center;
-
-
     }
 
     #pilares {
@@ -377,7 +371,6 @@ footer {
     #pilares:hover {
         -webkit-transform: scale(0.5);
         transform: scale(1.1);
-
     }
 
     footer {
@@ -398,8 +391,6 @@ footer {
         height: 100%;
         margin-top: 40px;
         align-items: center;
-
-
     }
 
     #pilares {
@@ -417,7 +408,6 @@ footer {
     #pilares:hover {
         -webkit-transform: scale(0.5);
         transform: scale(1.1);
-
     }
 
     .topicos {

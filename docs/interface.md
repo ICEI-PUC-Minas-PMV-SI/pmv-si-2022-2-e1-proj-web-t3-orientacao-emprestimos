@@ -40,7 +40,7 @@ A página **Excluir Conta** permite que o usuário exclua a sua conta e todos os
 </p>
 
 
-A página **Consultar Conta** permite que o usuário exclua a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-002.
+A página **Consultar Conta** permite que o usuário consulte a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-002.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-consultar.jpg">

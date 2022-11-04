@@ -45,31 +45,31 @@ A página **Excluir Conta** permite que o usuário exclua a sua conta e todos os
  <img width="700" src="img/wireframe-pagina-excluir.jpg">
 </p>
 
-A página **Análise Proposta** permite que o usuário envie os dados de uma proposta de crédito consignado para análise da nossa equipe de Analistas de Crédito. Esse comportamento atende ao requisito funcional RF-003.
+A página **Análise Proposta** permite que o usuário envie os dados de uma proposta de crédito consignado para análise da nossa equipe de Analistas de Crédito. Esse comportamento atende ao requisito funcional RF-006.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-analise.jpg">
 </p>
 
-A página **Histórico Análises** permite que o usuário visualize o histórico de análises de proposta que foram submetidas na aplicação através da página **Análise Proposta**. Esse comportamento atende ao requisito funcional RF-004.
+A página **Histórico Análises** permite que o usuário visualize o histórico de análises de proposta que foram submetidas na aplicação através da página **Análise Proposta**. Esse comportamento atende ao requisito funcional RF-007.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-historico.jpg">
 </p>
 
-O email transacional **Solicitação Análise** permite que o nosso time de crédito o usuário visualize a solicitação de análise que foi enviada pelo usuário. Esse comportamento atende ao requisito funcional RF-005.
+O email transacional **Solicitação Análise** permite que o nosso time de crédito o usuário visualize a solicitação de análise que foi enviada pelo usuário. Esse comportamento atende ao requisito funcional RF-008.
 
 <p align="center">
  <img width="700" src="img/wireframe-email-solicitacao-analise.jpg">
 </p>
 
-A página **Início** permite que o usuário acesse conteúdos sobre educação financeira e maiores detalhes sobre como a aplicação pode ajuda-lo na contratação de empréstimo consignado. Esse comportamento atende ao requisito funcional RF-006.
+A página **Início** permite que o usuário acesse conteúdos sobre educação financeira e maiores detalhes sobre como a aplicação pode ajuda-lo na contratação de empréstimo consignado. Esse comportamento atende ao requisito funcional RF-009.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-inicio.jpg">
 </p>
 
-A página **Ofertas** permite que o usuário acesse ofertas de crédito consignado de determinadas instituições financeira, filtre ofertas de uma instituição específica e envie avalição da sua experiência na contratação desse produto financeiro. Esse comportamento atende ao requisito funcional RF-007, RF-008 e RF-009.
+A página **Ofertas** permite que o usuário acesse ofertas de crédito consignado de determinadas instituições financeira, filtre ofertas de uma instituição específica e envie avalição da sua experiência na contratação desse produto financeiro. Esse comportamento atende ao requisito funcional RF-010, RF-011 e RF-012.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-ofertas.jpg">

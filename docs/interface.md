@@ -27,23 +27,22 @@ A página **Criar Conta** permite que o usuário se cadastre na aplicação info
  <img width="700" src="img/wireframe-pagina-cadastrar.jpg">
 </p>
 
-A página **Alterar Conta** permite que o usuário altere dados cadastrais da conta como Nome, Email e CPF. Esse comportamento atende ao requisito funcional RF-002.
+A página **Alterar Conta** permite que o usuário altere dados cadastrais da conta como Nome, Email e CPF. Esse comportamento atende ao requisito funcional RF-003.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-alterar.jpg">
 </p>
 
-A página **Excluir Conta** permite que o usuário exclua a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-002.
-
-<p align="center">
- <img width="700" src="img/wireframe-pagina-excluir.jpg">
-</p>
-
-
-A página **Consultar Conta** permite que o usuário consulte a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-002.
+A página **Consultar Conta** permite que o usuário consulte a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-004.
 
 <p align="center">
  <img width="700" src="img/wireframe-pagina-consultar.jpg">
+</p>
+
+A página **Excluir Conta** permite que o usuário exclua a sua conta e todos os seus dados. Esse comportamento atende ao requisito funcional RF-005.
+
+<p align="center">
+ <img width="700" src="img/wireframe-pagina-excluir.jpg">
 </p>
 
 A página **Análise Proposta** permite que o usuário envie os dados de uma proposta de crédito consignado para análise da nossa equipe de Analistas de Crédito. Esse comportamento atende ao requisito funcional RF-003.

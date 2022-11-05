@@ -12,7 +12,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-### Relação de Requisitos Funcionais com Artefatos
+## Relação de Requisitos Funcionais com Artefatos
 
 |ID    | Descrição do Requisito  | Artefato | Responsável
 |------|-----------------------------------------|----|----|
@@ -28,3 +28,49 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-010| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais | ???? | Gabriel |
 |RF-011| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador | ???? | Indefinido |
 |RF-012| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema | ???? | Gabriel |
+
+## Descrição das Estruturas de Dados
+
+### Usuário
+|Nome       | Tipo   | Descrição                                              | Exemplo            |
+|---------- |------- |------------------------------------------------------- |------------------- |
+|Nome	      |Texto	 |Nome da pessoa                                          |João José           |
+|Sobrenome	|Texto	 |Sobrenome da pessoa                                     |Silva Santos        |
+|Email	    |Texto	 |Email da pessoa	                                        |joao@exemplo.com.br |
+|Cpf	      |Texto	 |CPF da pessoa                                           |123.456.789-00      |
+|Senha	    |Texto	 |Senha do cadastro                                       |1@A#z.H             |
+|Imagem	    |Texto	 |Referência para arquivo de imagem do avatar do usuário  |image/users/avatar  |
+
+### Ofertas
+|Nome                    | Tipo             | Descrição                                               | Exemplo            |
+|----------------------- |----------------- |-------------------------------------------------------- |------------------- |
+|Instituição  financeira |Texto	            |Nome da instituição financeira	                          |Banco São Paulo S.A |
+|Taxa de juros           |Texto	            |Percentual da taxa de juros                              |1.10% a.m.          | 
+|Quantidade de parcelas  |Número (Inteiro)  |Número de parcelas do empréstimo	                        |10                  |
+|Valor de crédito        |Número (Decimal)	|Valor de crédito a ser contratado no empréstimo	        |10.550              |
+|Valor da parcela        |Número (Decimal)	|Valor a ser pago como parcela	                          |890.99              |
+
+### Avaliação da Instituição Financeira
+|Nome                    | Tipo  | Descrição                                                            | Exemplo                                |
+|----------------------- |------ |--------------------------------------------------------------------- |--------------------------------------- |
+|Instituição financeira	 |Texto  |Nome da instituição financeira                                        |Banco São Paulo S.A                     |
+|Descrição               |Texto  |Relato da experiência do usuário na contratação de crédito consignado	|Gostei do atendimento e das condições de pagamento.|
+
+### Proposta de Credito
+|Nome                   | Tipo            | Descrição                                      | Exemplo            |
+|---------------------- |---------------- |----------------------------------------------- |------------------- |
+|Instituição financeira |Texto            |Nome da instituição financeira	                 |Banco São Paulo S.A | 
+|Quantidade parcelas    |Número (Inteiro) |Número de parcelas do empréstimo	               |10                  |  
+|Valor da parcela	      |Número (Decimal) |Valor a ser pago da parcela   	                 |890.99              | 
+|Valor de crédito	      |Número (Decimal) |Valor de crédito a ser contratado no empréstimo |10.550              |
+
+### Proposta de Credito Analisada
+|Nome                   | Tipo            | Descrição                                                               | Exemplo              |
+|---------------------- |---------------- |------------------------------------------------------------------------ |--------------------- |
+|Id                     |Número (Inteiro) |Identificador da proposta de crédito na plataforma                       |123563                |
+|Status                 |Texto            |Status para informar a etapa da análise                                  |Pendente ou Concluido |
+|Analise                |Texto            |Análise da equipe de crédito, informando se recomenda ou não a proposta. |Essa proposta de crédito consignado não é recomendada porque a taxa de juros está muito acima do comum.|
+|Instituição financeira |Texto            |Nome da instituição financeira	                    |Banco São Paulo S.A   | 
+|Quantidade parcelas    |Número (Inteiro) |Número de parcelas do empréstimo	                  |10                    |  
+|Valor da parcela	      |Número (Decimal) |Valor a ser pago da parcela	                      |890.99              | 
+|Valor de crédito	      |Número (Decimal) |Valor de crédito a ser contratado no empréstimo |10.550              |

@@ -16,63 +16,44 @@
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="responsivo">&#9776;</label>
             <div class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Análise</a></li>
-                <li><a href="#">Entrar</a></li>
+                <li><a href="login.html">Entrar</a></li>
             </div>
         </ul>
     </nav>
     <div class="conteudo">
-    <div class="container">
-        <a class="links" id="paracadastro"></a>
-        <a class="links" id="paralogin"></a>
-
-        <div class="content">
-            <br>
-            <br>
-            <br>
-            <br>
             <div id="login">
-                <form method="post" action="#">
-                    <h2 id="login_title">Login</h1>
+                <form method="get" action="index.html">
+                    <h1>Entrar</h1>
                     <p>
-                        <label for="nome_login">Usuário<br></label>
-                        <input id="usuario" required="required" type="email" />
+                        <label for="email_login">Usuário<br></label>
+                        <input id="form" required="required" type="email" />
                     </p>
 
                     <p>
-                        <label for="email_login">Senha<br></label>
-                        <input id="senha" required="required" type="password" />
+                        <label for="senha_login">Senha<br></label>
+                        <input id="form" required="required" type="password" />
                     </p>
 
                     <p>
-                        <input id="submit"type="submit" value="Logar" />
+                        <input id="submit"type="submit" value="Continuar" />
                     </p>
-
+                    <p class="link">
+                        <a href="forgetpass.html" id="link">Esqueci minha senha</a>
+                    </p>
                     <p class="link">
                         Ainda não tem conta?
-                        <a href="#" id="link">Cadastre-se</a>
+                        <a href="cadastro.html" id="link">Cadastre-se</a>
                     </p>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                    
                 </form>
             </div>
-
-
-        </div>
     </div>
     </div>
 </div>
-    <footer>Emprestimos Inc</footer>
+<footer>ConsigFácil ©</footer>
 </body>
 
 </html>

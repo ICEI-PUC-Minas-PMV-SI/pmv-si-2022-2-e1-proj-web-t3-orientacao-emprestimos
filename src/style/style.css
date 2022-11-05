@@ -229,25 +229,40 @@ input[type=checkbox] {
     margin-top: 40px;
 }
 
-#login {
+#cadastro{
+    display: block;
+    text-align: center;
+    padding: 75px;  
+    background-color: #1F2D27;
+    border-radius: 20px;
+    display: block;
+    margin-top: 100px;
+}
+#login{
+    background-color: #1F2D27;
+    border-radius: 20px;
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+    padding: 75px;
+}
+#form{
+    height: 25px;
+    border-radius: 20px;
     text-align: center;
 }
-
-#login_title{
-    font-size: 40px;
-    font-weight: 50px;
+    
+    #form_date{
+        margin-top: 10px;
+        height: 35px;
+        border-radius: 20px;
+        
+    }
+input{
+    text-align: center;
 }
-
-#usuario{
-    border-radius: 20px;
-}
-
-#senha{
-    border-radius: 20px;
-}
-
 #submit{
-    color: white;
+    background-color: #49E295;
     border-style: outset;
     color: #6f7974;
     border-radius: 30px;

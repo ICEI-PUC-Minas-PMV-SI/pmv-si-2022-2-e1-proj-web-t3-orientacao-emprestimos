@@ -23,25 +23,41 @@
     </nav>
     <main>
         <div class="analise">
-            <h2> Análise de Crédito Consignado </h1><br>
+            <h2 id="form_title"> Análise de Crédito Consignado </h2>
             <article>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia voluptate nesciunt earum. Molestias dicta voluptates eveniet ex rerum mollitia! Quidem a fuga voluptate animi iusto. Sapiente molestiae vero repudiandae dolore.
                 </p>
-            </article><br><br>
+            </article>
             <form class="analise">
-                <label for="instituicao_financ">Instituição financeira:</label><br>
-                <select id="bancos" name="bancos">
+                <label id="form_label">Instituição financeira</label>
+                <br>
+                <select id="form_select" name="bancos">
+                    <option value="Selecione uma instituição" selected>Selecione uma institução</option>
                     <option value="Banco São Paulo 123">Banco São Paulo 123</option>
                     <option value="Banco Minas Gerais 435">Banco Minas Gerais 435</option>
                     <option value="Banco Rio de Janeiro 049">Banco Rio de Janeiro 049</option>
-                </select><br><br>
-
-                <label for="quantidade_parcelas">Quantidade parcelas:</label><br>
-                <input type="text" id="quantidade_parcelas" name="quantidade_parcelas"><br><br>
-                <label for="valor_parcela">Valor cada parcela:</label><br>
-                <input type="text" id="valor_parcela" name="valor_parcela"><br><br>
-                <button type="button" id="enviar" name="enviar">Enviar</buttton><br><br>
+                </select>
+                <br>
+                <label id="form_label" name="quantidade_parcelas">Quantidade parcelas</label>
+                <br>
+                <input type="number" id="form_input" required="required">
+                <br>
+                <label id="form_label" name="valor_parcela">Valor cada parcela</label>
+                <br>
+                <input type="number" id="form_input" required="required">
+                <br>
+                <label id="form_label" name="valor_parcela">Valor contratado</label>
+                <br>
+                <input type="number" id="form_input" required="required">
+                <br><br>
+                <input id="submit"type="submit" value="Enviar"/>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </form>
         </div>
     </main>

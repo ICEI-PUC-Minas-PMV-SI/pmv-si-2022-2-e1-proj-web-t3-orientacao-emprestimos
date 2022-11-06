@@ -73,4 +73,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |Instituição financeira |Texto            |Nome da instituição financeira	                    |Banco São Paulo S.A   | 
 |Quantidade parcelas    |Número (Inteiro) |Número de parcelas do empréstimo	                  |10                    |  
 |Valor da parcela	      |Número (Decimal) |Valor a ser pago da parcela	                      |890.99              | 
-|Valor de crédito	      |Número (Decimal) |Valor de crédito a ser contratado no empréstimo |10.550              |
+|Valor de crédito	      |Número (Decimal) |Valor de crédito a ser contratado no empréstimo    |10.550              |
+
+### Hospedagem do Site
+GitHub Pages: https://icei-puc-minas-pmv-si.github.io/pmv-si-2022-2-e1-proj-web-t3-orientacao-emprestimos/index.html#
+
+

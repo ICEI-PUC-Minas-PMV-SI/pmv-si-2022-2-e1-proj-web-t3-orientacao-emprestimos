@@ -246,8 +246,19 @@ input[type=checkbox] {
     text-align: center;
     padding: 75px;
 }
+
 #form{
-    height: 25px;
+    height: 35px;
+    width: 300px;
+    font-size: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#number_input{
+    height: 35px;
+    width: 180px;
+    font-size: 100%;
     border-radius: 20px;
     text-align: center;
 }
@@ -261,13 +272,19 @@ input[type=checkbox] {
 input{
     text-align: center;
 }
+
+#form_h1 {
+    font-size: 180%;
+}
+
 #submit{
     background-color: #49E295;
     border-style: outset;
     color: #6f7974;
     border-radius: 30px;
     height: 40px;
-    width: 90px;
+    width: 140px;
+    font-size: 100%;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -308,6 +325,10 @@ input{
 }
 
 #link {
+    color: #49E295;
+}
+
+#analise_article {
     color: #49E295;
 }
 

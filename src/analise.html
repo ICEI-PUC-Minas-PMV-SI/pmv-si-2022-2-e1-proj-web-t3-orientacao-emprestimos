@@ -21,45 +21,47 @@
             </div>
         </ul>
     </nav>
-    <main>
-        <div class="analise">
-            <h2 id="form_title"> Análise de Crédito Consignado </h2>
-            <article>
+    <div class="conteudo">
+        <div id="login">
+            <h1 id="form_h1">Análise de Crédito Consignado</h1>
+            <article id="analise_article">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia voluptate nesciunt earum. Molestias dicta voluptates eveniet ex rerum mollitia! Quidem a fuga voluptate animi iusto. Sapiente molestiae vero repudiandae dolore.
+                    Informe os dados da proposta de crédito consignado que o banco te ofereceu e nossa equipe de analistas de crédito vai avaliar se essa oferta 
+                    é recomendada pra você ou não. O resultado da análise é enviado para o seu email cadastrado em até 48 horas.
                 </p>
             </article>
-            <form class="analise">
-                <label id="form_label">Instituição financeira</label>
-                <br>
-                <select id="form_select" name="bancos">
-                    <option value="Selecione uma instituição" selected>Selecione uma institução</option>
-                    <option value="Banco São Paulo 123">Banco São Paulo 123</option>
-                    <option value="Banco Minas Gerais 435">Banco Minas Gerais 435</option>
-                    <option value="Banco Rio de Janeiro 049">Banco Rio de Janeiro 049</option>
-                </select>
-                <br>
-                <label id="form_label" name="quantidade_parcelas">Quantidade parcelas</label>
-                <br>
-                <input type="number" id="form_input" required="required">
-                <br>
-                <label id="form_label" name="valor_parcela">Valor cada parcela</label>
-                <br>
-                <input type="number" id="form_input" required="required">
-                <br>
-                <label id="form_label" name="valor_parcela">Valor contratado</label>
-                <br>
-                <input type="number" id="form_input" required="required">
-                <br><br>
-                <input id="submit"type="submit" value="Enviar"/>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+            <form method="post">
+                <p>
+                    <label for="instituicao_financeira">Instituição financeira</label>
+                    <br>
+                    <select id="form" name="bancos">
+                        <option value="Selecione uma instituição" selected>Selecione uma institução</option>
+                        <option value="Banco São Paulo 123">Banco São Paulo 123</option>
+                        <option value="Banco Minas Gerais 435">Banco Minas Gerais 435</option>
+                        <option value="Banco Rio de Janeiro 049">Banco Rio de Janeiro 049</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="quantidade_parcelas">Quantidade parcelas</label>
+                    <br>
+                    <input type="number" id="number_input" required="required">
+                </p>
+                <p>
+                    <label for="valor_parcela">Valor parcela</label>
+                    <br>
+                    <input type="number" id="number_input" required="required">
+                </p>
+                <p>
+                    <label for="valor_contratado">Valor contratado</label>
+                    <br>
+                    <input type="number" id="number_input" required="required">
+                </p>
+                <p>
+                    <input id="submit"type="submit" value="Enviar"/>
+                </p>
             </form>
         </div>
-    </main>
+    </div>
+    <footer>ConsigFácil ©</footer>
 </body>
 </html>

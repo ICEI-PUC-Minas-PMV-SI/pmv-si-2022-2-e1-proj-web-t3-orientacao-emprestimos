@@ -289,8 +289,8 @@ input{
     color: #6f7974;
     border-radius: 30px;
     height: 40px;
-    width: 140px;
-    font-size: 100%;
+    width: 120px;
+    font-size: 80%;
     transition: all 0.5s;
     cursor: pointer;
 }

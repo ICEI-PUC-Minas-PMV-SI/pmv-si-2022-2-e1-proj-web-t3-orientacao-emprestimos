@@ -539,3 +539,152 @@ footer {
         padding: 10px;
     }
 }
+
+#bancoa{
+    margin: 75px 0px 0px 0px;
+}
+
+.conteudo table{
+    background-color: #49e295a4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.conteudo th{
+    padding: 0px 30px;
+    padding-bottom: 10px;
+}
+
+
+.divisao{
+    margin: 50px 300px;
+}
+
+.grupo{
+    border: 0;
+}
+
+#opbancos, #exp, .botao{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #51B68E;
+    display: block;
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: block;
+    clear: none;
+    z-index: auto;
+    text-align: center;
+}
+
+fieldset.grupo .campo{
+    margin-right: 1em;
+}
+
+.campo select, .campo textarea{
+    font-family: 'GraphikLight';
+    padding: 0.2em;
+    border: 1px solid #51B68E;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #49E295;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao:hover {
+    background: #51B68E;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+.campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #51B68E;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    margin: 20px auto;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 10px;
+}
+
+table select{
+    font-family: 'GraphikLight';
+    padding: 0.2em;
+    border: 1px solid #51B68E;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: left;
+    height: 30px;
+}
+
+table input{
+    font-family: 'GraphikLight';
+    padding: 0.2em;
+    border: 1px solid #51B68E;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: left;
+    height: 30px;
+}
+
+table span{
+    float: left;
+}
+
+#parcelas{
+    width: 70%;
+}
+
+.valor input{
+    width: 80%;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.conteudo h3{
+    margin-top: 20px;
+    font-size: large;
+}
+
+#linkcadastro{
+    color: #49E295;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+    <title>Orientação de Emprestimos</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nomeproj">ConsigFácil</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="responsivo">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="historico.html">Histórico</a></li>
+                <li><a href="analise.html">Análise</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="conteudo">
+        <h1>Ofertas de Crédito Consignado</h1>
+    </div>
+    <div class="conteudo">
+        <h2 id="bancoa">Banco Etereo</h2>
+        <img src="img/bancoetereo.png" alt="" id="etereologo" class="logo">
+        <table class="ofertabacos">
+            <thead>
+                <tr>
+                    <th>Taxa de Juros</th>
+                    <th>Valor contratado</th>
+                    <th>Quantidade de Parcelas</th>
+                    <th>Valor parcelas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>17,30% ao ano</td>
+                    <td class="valor">
+                        <span>R$</span>
+                        <input type="number" placeholder="0,00">
+                    </td>
+                    <td class="parcelas">
+                        <select required>
+                            <option selected disabled value="">Selecione o numero de parcelas</option>
+                            <option>12x(Meses)</option>
+                            <option>24x(Meses)</option>
+                            <option>36x(Meses)</option>
+                        </select>
+                    </td>
+                    <td>R$13.195,40</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="botao">Calcular</button>
+    </div>
+    <hr class="divisao">
+    <div class="conteudo">
+        <h2 id="titlebanco">Maximize Bank</h2>
+        <img src="img/maximizebank.png" alt="" id="maximizelogo" class="logo">
+        <table class="ofertabacos">
+            <thead>
+                <tr>
+                    <th>Taxa de Juros</th>
+                    <th>Valor contratado</th>
+                    <th>Quantidade de Parcelas</th>
+                    <th>Valor parcelas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18,48% ao ano</td>
+                    <td class="valor">
+                        <span>R$</span>
+                        <input type="number" placeholder="0,00">
+                    </td>
+                    <td class="parcelas">
+                        <select required>
+                            <option selected disabled value="">Selecione o numero de parcelas</option>
+                            <option>12x(Meses)</option>
+                            <option>24x(Meses)</option>
+                            <option>36x(Meses)</option>
+                        </select>
+                    </td>
+                    <td>R$15.636,90</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="botao">Calcular</button>
+    </div>
+    <hr class="divisao">
+    <div class="conteudo">
+        <h2 id="titlebanco">Comvalor</h2>
+        <img src="img/comvalor.png" alt="" id="Comvalorlogo" class="logo">
+        <table class="ofertabacos">
+            <thead>
+                <tr>
+                    <th>Taxa de Juros</th>
+                    <th>Valor contratado</th>
+                    <th>Quantidade de Parcelas</th>
+                    <th>Valor parcelas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>14,64% ao ano</td>
+                    <td class="valor">
+                        <span>R$</span>
+                        <input type="number" placeholder="0,00">
+                    </td>
+                    <td class="parcelas">
+                        <select required>
+                            <option selected disabled value="">Selecione o numero de parcelas</option>
+                            <option>12x(Meses)</option>
+                            <option>24x(Meses)</option>
+                            <option>36x(Meses)</option>
+                        </select>
+                    </td>
+                    <td>R$11.171,20</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="botao">Calcular</button>
+    </div>
+    <hr class="divisao">
+    <div class="conteudo">
+        <h2>Já fez uma contratação de crédito consignado?</h2>
+
+    </div>
+    <form class="bancos">
+        <fieldset class="grupo">
+            <div class="campo">
+                <select id="opbancos" required>
+                    <option selected disabled value="">Selecione o banco</option>
+                    <option>Banco Etereo</option>
+                    <option>Maximize Bank</option>
+                    <option>Comvalor</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label>Conte um pouco da sua experiencia</label>
+                <textarea name="exp" id="exp" style="width: 50em;" rows="8" required></textarea>
+            </div>
+            <button type="submit" class="botao">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+<footer>ConsigFácil ©</footer>
+
+</html>

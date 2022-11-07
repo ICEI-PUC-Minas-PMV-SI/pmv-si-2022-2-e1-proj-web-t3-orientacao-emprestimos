@@ -578,6 +578,7 @@ footer {
 
 .campo label{
     margin-bottom: 0.2em;
+    font-family: 'GraphikLight';
     color: #51B68E;
     display: block;
     position: static;

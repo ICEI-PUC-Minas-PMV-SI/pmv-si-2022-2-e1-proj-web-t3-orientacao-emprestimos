@@ -26,8 +26,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-008| Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente | ???? | Indefinido |
 |RF-009| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira | index.html | Marcio |
 |RF-010| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais | ???? | Gabriel |
-|RF-011| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador | ???? | Indefinido |
-|RF-012| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema | ???? | Gabriel |
+|RF-011| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema | ???? | Gabriel |
 
 ## Descrição das Estruturas de Dados
 

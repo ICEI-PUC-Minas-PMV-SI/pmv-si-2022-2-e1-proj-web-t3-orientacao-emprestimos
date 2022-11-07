@@ -48,6 +48,11 @@
       text-transform: capitalize;
     }
     
+    .navbar-toggler { 
+      background-color: #2F3E46!important;
+      width: fit-content;
+      display: flex;
+           padding: 30px;}
     ul.dropdown-menu.dropdown-menu-end.show {
       color: #79799c;
       border: solid 1px #2f3e46;

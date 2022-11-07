@@ -33,7 +33,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #1F2D27;
+    background-color: #1F2D27!important;
     color: #6F7974;
 }
 

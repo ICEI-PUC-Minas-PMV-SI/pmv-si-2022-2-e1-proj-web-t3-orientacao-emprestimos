@@ -41,6 +41,7 @@ li {
     font-family: 'GraphikLight';
     font-size: 17px;
     color: #6F7974;
+	text-decoration: none;
 }
 
 .nomeproj {

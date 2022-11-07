@@ -41,7 +41,7 @@ li {
     font-family: 'GraphikLight';
     font-size: 17px;
     color: #6F7974;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .nomeproj {
@@ -80,7 +80,9 @@ li {
 }
 
 .dropdown {
+
     display: none;
+
 }
 
 .dropdown li {
@@ -91,7 +93,8 @@ li {
 }
 
 .dropdown li:hover {
-    background-color: #1F2D27;
+
+    background-color: #6F7974;
 }
 
 .services:hover .dropdown {
@@ -107,6 +110,7 @@ input[type=checkbox] {
     font-size: 24px;
     user-select: none;
 }
+
 
 .conteudo {
     color: #6f7974;

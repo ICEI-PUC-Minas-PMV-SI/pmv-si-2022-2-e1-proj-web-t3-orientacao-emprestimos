@@ -37,14 +37,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O sistema deve permitir que o usuário crie uma conta | ALTA |
 |RF-003| O sistema deve permitir que o usuário edite os dados do seu cadastro | ALTA |
 |RF-004| O sistema deve permitir que o usuário consulte os dados do seu cadastro | ALTA |
-|RF-004| O sistema deve permitir que o usuário exclua seu cadastro | ALTA |
-|RF-005| O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado | ALTA |
-|RF-006| Todo formulário que for submetido para análise entrará na lista do usuário com o status de pendente | ALTA |
-|RF-007| Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente | ALTA |
-|RF-008| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira | MÉDIA |
-|RF-009| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais | ALTA |
-|RF-010| O sistema deve fornecer uma mecanismo de busca de instituições previamente cadastradas pelo administrador | MÉDIA |
-|RF-011| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema | MÉDIA |
+|RF-005| O sistema deve permitir que o usuário altere a senha do seu cadastro | ALTA |
+|RF-006| O sistema deve permitir que o usuário exclua seu cadastro | ALTA |
+|RF-007| O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado | ALTA |
+|RF-008| Todo formulário que for submetido para análise entrará na lista do usuário com o status de pendente | ALTA |
+|RF-009| Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente | ALTA |
+|RF-010| O sistema deve fornecer ao usuário materiais para auxiliar na conscientização financeira | MÉDIA |
+|RF-011| O sistema deve fornecer uma lista de bancos com seus respectivos parâmetros negociais | ALTA |
+|RF-012| O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema | MÉDIA |
 
 ### Requisitos não Funcionais
 

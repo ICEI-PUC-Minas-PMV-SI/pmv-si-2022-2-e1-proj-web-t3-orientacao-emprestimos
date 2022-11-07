@@ -395,8 +395,21 @@ footer {
     }
 
     .conteudo h1 {
-        color: #1F2D27;
-        font-family: 'GraphikLight';
+        color: #6f7974;
+        font-family: 'GraphikBlack';
+        font-weight: 100;
+        margin-top: 75px;
+        line-height: 55px;
+        position: static;
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+        float: none;
+        display: block;
+        clear: none;
+        z-index: auto;
+        text-align: center;
         font-size: 32px;
 
     }

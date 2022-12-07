@@ -9,7 +9,7 @@
     <title>Orientação de Emprestimos</title>
 </head>
 
-<body>
+<body onload="carregaUsuarioMock()">
     <nav class="navbar">
         <div class="nomeproj">ConsigFácil</div>
         <ul class="nav-links">
@@ -27,31 +27,31 @@
     <div class="conteudo">
         <div class="container">
             <div id="cadastro">
-                <form method="get" action="login.html">
+                <form method="get" action="cadastro_alterado.html" onsubmit="alteraCadastroUsuario()">
                     <h1>Alteração de Cadastro</h1>
                     <p>
-                        <label for="nome_login">Nome<br></label>
-                        <input id="form" required="required" type="text" />
+                        <label for="nome">Nome<br></label>
+                        <input class="form" id="nome" type="text" />
                     </p>
                     <p>
-                        <label for="nome_login">Sobrenome<br></label>
-                        <input id="form" required="required" type="text" />
+                        <label for="sobre_nome">Sobrenome<br></label>
+                        <input class="form" id="sobre_nome" type="text" />
                     </p>
                     <p>
-                        <label for="nome_login">Local<br></label>
-                        <input id="form" required="required" type="text" />
+                        <label for="local">Local<br></label>
+                        <input class="form" id="local" type="text" />
                     </p>
                     <p>
-                        <label for="senha_login">E-mail<br></label>
-                        <input id="form" required="required" type="email" />
+                        <label for="email">E-mail<br></label>
+                        <input class="form" id="email" type="email" />
                     </p>
                     <p>
-                        <label for="senha_login">Senha<br></label>
-                        <input id="form" required="required" type="password" />
+                        <label for="senha">Senha<br></label>
+                        <input class="form" id="senha" type="password" />
                     </p>
                     <p>
-                        <label for="senha_login">Confirme sua senha<br></label>
-                        <input id="form" required="required" type="password" />
+                        <label for="confirme_senha">Confirme sua senha<br></label>
+                        <input class="form" id="form" type="password" />
                     </p>
                     <p>
                         <input id="submit" type="submit" value="Alterar" />
@@ -61,6 +61,7 @@
         </div>
     </div>
     <footer>ConsigFácil ©</footer>
+    <script src="script/cadastro_servico.js"></script>
 </body>
 
 </html>

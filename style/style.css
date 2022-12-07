@@ -265,6 +265,14 @@ input[type=checkbox] {
     border-radius: 20px;
     text-align: center;
 }
+
+.form{
+    height: 30px;
+    width: 200px;
+    font-size: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
  
 #number_input{
     height: 35px;

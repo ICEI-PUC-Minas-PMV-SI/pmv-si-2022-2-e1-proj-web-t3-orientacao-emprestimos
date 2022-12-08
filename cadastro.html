@@ -35,11 +35,11 @@
                     </p>
                     <p>
                         <label for="labelCpf">CPF<br></label>
-                        <input id="cpf" required="required" type="number" />
+                        <input oninput="mascaraCpf(this)" id="cpf" required="required" type="text"  maxlength="11" autocomplete="off"/>
                     </p>
                     <p>
                         <label for="labelTelefone">Telefone<br></label>
-                        <input id="telefone" required="required" type="text" />
+                        <input id="telefone" required="required" type="tel" maxlength="15" onkeyup="mascaraTelefone(event)"/>
                     </p>
                     <p>
                         <label for="labelEmail">E-mail<br></label>
@@ -47,11 +47,11 @@
                     </p>
                     <p>
                         <label for="labelData">Data de Nascimento<br></label>
-                        <input id="data" required="required" type="text" />
+                        <input id="data" required="required" type="text" maxlength="10"/>
                     </p>
                     <p>
                         <label for="labelSenha">Senha<br></label>
-                        <input id="senha" required="required" type="password" />
+                        <input onblur="senhaV()" id="senha" required="required" type="password" />
                     </p>
                     <p>
                         <label for="labelConfirmsenha">Confirme sua senha<br></label>

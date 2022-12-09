@@ -35,7 +35,7 @@
                 <p>
                     <label for="instituicao_financeira">Instituição financeira</label>
                     <br>
-                    <select id="form" name="instituicao_financeira">
+                    <select class="form" id="instituicao_financeira">
                         <option value="Selecione uma instituição" selected>Selecione uma institução</option>
                         <option value="Banco São Paulo 123">Banco São Paulo 123</option>
                         <option value="Banco Minas Gerais 435">Banco Minas Gerais 435</option>
@@ -45,24 +45,24 @@
                 <p>
                     <label for="numero_parcelas">Número parcelas</label>
                     <br>
-                    <input type="number" id="number_input" required="required" name="numero_parcelas">
+                    <input type="number" class="number_input" required="required" id="numero_parcelas">
                 </p>
                 <p>
                     <label for="valor_parcela">Valor parcela</label>
                     <br>
-                    <input type="number" id="number_input" required="required" name="valor_parcela">
+                    <input type="number" class="number_input" required="required" id="valor_parcela">
                 </p>
                 <p>
                     <label for="valor_contratado">Valor contratado</label>
                     <br>
-                    <input type="number" id="number_input" required="required" name="valor_contratado">
+                    <input type="number" class="number_input" required="required" id="valor_contratado">
                 </p>
                 <p>
                     <input id="submit" type="submit" value="Enviar"/>
                 </p>
             </form>
             <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-            <script type="text/javascript" src="script/envio_email_servico.js"></script>
+            <script type="text/javascript" src="script/solicitacao_analise_servico.js"></script>
         </div>
     </div>
     <footer>ConsigFácil ©</footer>

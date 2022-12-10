@@ -257,7 +257,16 @@ input[type=checkbox] {
     text-align: justify;
     padding: 75px;
 }
-
+#login input{
+    margin-top: 25px;
+    max-width: 800px;
+    font-size: 19px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
 #form{
     height: 30px;
     width: 200px;

@@ -237,3 +237,17 @@ function alterarSenha() {
   localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado));
   localStorage.setItem(chaveUsuariosCadastrados, JSON.stringify(usuariosCadastrados));
 }
+function verificarAlterada() {
+  let novaSenha = document.querySelector("#alteraSenha").value;
+  var regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*.&@#]{8,}$/;
+
+  if (novaSenha.length < 8) {
+    alert("A senha deve conter no minímo 8 digitos!");
+    return false;
+  }
+  else if (!regex.exec(novaSenha)) {
+    alert("A senha deve conter no mínimo 1 caracteres em maiúsculo, 1 números e 1 caractere especial!");
+    return false;
+  }
+  return true;
+} 

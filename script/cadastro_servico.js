@@ -232,7 +232,7 @@ function alterarSenha() {
   }
 
   else {
-    alert("E-mail ou senha incorretos");
+    alert("E-mail ou código incorretos");
   }
   localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado));
   localStorage.setItem(chaveUsuariosCadastrados, JSON.stringify(usuariosCadastrados));

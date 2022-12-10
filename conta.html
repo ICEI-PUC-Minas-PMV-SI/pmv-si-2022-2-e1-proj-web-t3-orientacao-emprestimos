@@ -5,62 +5,60 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/ofertas.css" media="screen" />
 	<title>Orientação de Emprestimos</title>
 </head>
 
-<body>
-    <nav class="navbar">
-        <div class="nomeproj">ConsigFácil</div>
-        <ul class="nav-links">
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="responsivo">&#9776;</label>
-            <div class="menu">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="ofertas.html">Ofertas</a></li>
-                <li><a href="historico.html">Histórico</a></li>
-                <li><a href="analise.html">Análise</a></li>
-                <li><a href="login.html">Entrar</a></li>
-            </div>
-        </ul>
-    </nav>
+<body onload="buscaUsuarioLogado()">
+	<nav class="navbar">
+		<div class="nomeproj"><a href="index.html">ConsigFácil</a></div>
+		<ul class="nav-links">
+			<input type="checkbox" id="checkbox_toggle" />
+			<label for="checkbox_toggle" class="responsivo">&#9776;</label>
+			<div class="menu">
+				<li><a href="index.html">Início</a></li>
+				<li><a href="ofertas.html">Ofertas</a></li>
+				<li><a href="historico.html">Histórico</a></li>
+				<li><a href="analise.html">Análise</a></li>
+				<li><a href="conta.html">Perfil</a></li>
+			</div>
+		</ul>
+	</nav>
 	<div class="conteudo">
-
 		<h1>Perfil</h1>
 		<img class="avatar" src="img\avatar.png" alt="Avatar">
 	</div>
-
 	<div class="conteudo">
 		<h2>Sobre mim</h2>
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt asperiores
-			tempora! Molestiae iusto veritatis numquam minima temporibus porro aut ut asperiores
-			libero provident, dolore, voluptas modi inventore quia ea?
-		</p>
+		<textarea id="descricao" style="resize: none;" rows="8" placeholder="Insira aqui uma descrição sobre você"></textarea>
+	</div>
+	<div id="botoes">
+		<button id="editar">Editar</button>
+		<button id="salvar">Salvar</button>
 	</div>
 	<hr class="divisao">
 	<div class="conteudo" id="dados">
 		<h2>Meus dados pessoais</h2>
 		<h3>Nome:</h3>
-		<p>Milton Santos</p>
-		<h3>Idade:</h3>
-		<p>37 anos</p>
-		<h3>Localização:</h3>
-		<p>Rio de Janeiro - RJ</p>
+		<p id="pnome">Milton Santos</p>
+		<h3>Telefone:</h3>
+		<p id="ptel">(99) 99999-9999</p>
 		<h3>Email:</h3>
-		<p>email@email.com</p>
+		<p id="pemail">email@email.com</p>
 		<h3>Data de nascimento:</h3>
-		<p>01/01/2000</p>
+		<p id="pdata">01/01/2000</p>
 		<h3>CPF:</h3>
-		<p>999.999.999-99</p>
+		<p id="pcpf">999.999.999-99</p>
 	</div>
 	<hr class="divisao">
-
 	<div class="conteudo">
-		<h2>Precisa atualizar algum dado cadastral? <a href="alteracao_cadastro.html" id="linkcadastro">Clique aqui</a></h2>
+		<h2>Precisa atualizar algum dado cadastral? <a href="alteracao_cadastro.html" id="linkcadastro">Clique aqui</a>
+		</h2>
 	</div>
 	<div class="conteudo">
 		<h2>Deseja excluir sua conta? <a href="excluir.html" id="excluirconta">Clique aqui</a></h2>
 	</div>
+	<script src="script/perfil.js"></script>
 </body>
 <footer>ConsigFácil ©</footer>
 

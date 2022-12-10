@@ -204,4 +204,36 @@ function senhaV() {
   }
   return true;
 } 
+function alterarSenha() {
+  let chaveUsuarioLogado = "usuario_logado";
+  let chaveUsuariosCadastrados = "usuarios_cadastrados";
+  let usuariosCadastrados = JSON.parse(localStorage.getItem(chaveUsuariosCadastrados));
+  let usuarioLogado = JSON.parse(localStorage.getItem(chaveUsuarioLogado));
+  let def = "3598";
+  usuarioExiste = false;
+  let novaSenha = document.querySelector("#alteraSenha").value;
+  let confirmEmail = document.querySelector("#confirmEmail").value;
+  let codigo = document.querySelector("#alterarCodigo").value;
+  console.log(codigo);
+  usuariosCadastrados.forEach(usuarioCadastrado => {
 
+
+    if (def == codigo && usuarioCadastrado.email == confirmEmail) {
+      usuarioCadastrado.senha = novaSenha;
+      usuarioExiste = true;
+    }
+  }
+  )
+
+  if (usuarioExiste == true) {
+    usuarioLogado.senha = novaSenha;
+    alert("Sua senha foi alterada com sucesso!")
+    window.location.replace("./login.html");
+  }
+
+  else {
+    alert("E-mail ou senha incorretos");
+  }
+  localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado));
+  localStorage.setItem(chaveUsuariosCadastrados, JSON.stringify(usuariosCadastrados));
+}

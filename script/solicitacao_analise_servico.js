@@ -32,7 +32,8 @@ function carregaSolicitacoesAnaliseCadastradas() {
       valorParcela: 100,
       valorContratado: 1000,
       status: "CONCLUIDO",
-      analise: "Essa oferta de crédito consignado é recomendada, porque possui taxa de juros e prazo vantajosos."
+      analise: "Essa oferta de crédito consignado é recomendada, porque possui taxa de juros e prazo vantajosos.",
+      data: "15/11/2022"
     },
     {
       instituicaoFinanceira: "BBanco Rio de Janeiro 049",
@@ -40,7 +41,8 @@ function carregaSolicitacoesAnaliseCadastradas() {
       valorParcela: 100,
       valorContratado: 1800,
       status: "CONCLUIDO",
-      analise: "Essa oferta de crédito consignado não é recomendada, a taxa de juros está 10% acima do praticado nesse momento."
+      analise: "Essa oferta de crédito consignado não é recomendada, a taxa de juros está 10% acima do praticado nesse momento.",
+      data: "20/11/2022"
     },
   ]
 
@@ -49,12 +51,14 @@ function carregaSolicitacoesAnaliseCadastradas() {
 
 function salvaSolicitacaoAnalise() {
   let select = document.getElementById("instituicao_financeira");
+  let dataAtual = new Date()
 
   let solicitacaoAnalise = {
     instituicaoFinanceira: select.options[select.selectedIndex].value,
     numeroParcelas: document.getElementById("numero_parcelas").value,
     valorParcela: document.getElementById("valor_parcela").value,
     valorContratado: document.getElementById("valor_contratado").value,
+    data: `${dataAtual.getDate()}/${dataAtual.getMonth() + 1}/${dataAtual.getFullYear()}`,
     status: "PENDENTE",
     analise: ""
   }
@@ -64,4 +68,5 @@ function salvaSolicitacaoAnalise() {
   solicitacoesAnaliseCadastradas.push(solicitacaoAnalise)
 
   localStorage.setItem("solicitacoes_analise", JSON.stringify(solicitacoesAnaliseCadastradas))
+  localStorage.clear
 }

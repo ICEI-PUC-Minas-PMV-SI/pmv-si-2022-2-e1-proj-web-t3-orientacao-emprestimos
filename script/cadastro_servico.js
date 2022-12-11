@@ -110,6 +110,10 @@ function entrar() {
   let usuarioExiste = false;
   console.log(usuariosCadastrados)
   let usuarioLogado;
+  if(usuariosCadastrados==null){
+    alert ("Cadastro não encontrado")
+  }
+  else{
   usuariosCadastrados.forEach(usuarioCadastrado => {
 
 
@@ -124,12 +128,13 @@ function entrar() {
   )
 
   if (usuarioExiste == true) {
-    window.location.replace("https://icei-puc-minas-pmv-si.github.io/pmv-si-2022-2-e1-proj-web-t3-orientacao-emprestimos/ofertas.html");
+    window.location.replace("./ofertas.html");
   }
 
   else {
     alert("E-mail ou senha incorretos");
   }
+}
 }
 
 //formata a data no input

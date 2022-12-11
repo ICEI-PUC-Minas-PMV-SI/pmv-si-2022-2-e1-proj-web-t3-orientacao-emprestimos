@@ -215,12 +215,13 @@ function alterarSenha() {
   let chaveUsuariosCadastrados = "usuarios_cadastrados";
   let usuariosCadastrados = JSON.parse(localStorage.getItem(chaveUsuariosCadastrados));
   let usuarioLogado = JSON.parse(localStorage.getItem(chaveUsuarioLogado));
-  let def = "3598";
+  let def = "4fc0e75b-0735-44b5";
   usuarioExiste = false;
   let novaSenha = document.querySelector("#alteraSenha").value;
   let confirmEmail = document.querySelector("#confirmEmail").value;
   let codigo = document.querySelector("#alterarCodigo").value;
   console.log(codigo);
+  if(usuariosCadastrados!=null){
   usuariosCadastrados.forEach(usuarioCadastrado => {
 
 
@@ -230,7 +231,6 @@ function alterarSenha() {
     }
   }
   )
-
   if (usuarioExiste == true) {
     usuarioLogado.senha = novaSenha;
     alert("Sua senha foi alterada com sucesso!")
@@ -238,11 +238,16 @@ function alterarSenha() {
   }
 
   else {
-    alert("E-mail ou código incorretos");
+    alert("E-mail ou código");
   }
   localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado));
   localStorage.setItem(chaveUsuariosCadastrados, JSON.stringify(usuariosCadastrados));
 }
+else{
+  alert("Não foi possível localizar sua conta");
+}
+}
+
 function verificarAlterada() {
   let novaSenha = document.querySelector("#alteraSenha").value;
   var regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*.&@#]{8,}$/;

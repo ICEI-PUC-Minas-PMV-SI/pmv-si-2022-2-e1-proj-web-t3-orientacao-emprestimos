@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+    <title>Orientação de Emprestimos</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nomeproj">ConsigFácil</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="responsivo">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="historico.html">Histórico</a></li>
+                <li><a href="analise.html">Análise</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="conteudo">
+        <div class="container">
+            <a class="links" id="paracadastro"></a>
+            <a class="links" id="paralogin"></a>
+
+            <div class="cont_login">
+
+                <div id="login">
+
+                    <h1>Esqueci minha senha</h1>
+                    <p>Verifique o código no e-mail em sua caixa de entrada</p>
+                    <p>Digite o código de alteração e sua nova senha nos campos a baixo</p>
+                    <p>
+                        <label for="confirmEmail">Confirme seu E-mail<br></label>
+                        <input id="confirmEmail" required="required" type="email" />
+                    </p>
+                    <p>
+                        <label for="alteraCodigo">Código de Alteração<br></label>
+                        <input id="alterarCodigo" required="required" type="text" />
+                    </p>
+
+                    <p>
+                        <label for="alteraSenha">Nova senha<br></label>
+                        <input onblur="verificarAlterada()" id="alteraSenha" required="required" type="text" />
+                    </p>
+                    <p>
+                        <button onclick="alterarSenha()" id="cadastrar" type="submit">Continuar</button>
+                    </p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>ConsigFácil ©</footer>
+    <script src="./script/cadastro_servico.js"></script>
+</body>
+
+</html>

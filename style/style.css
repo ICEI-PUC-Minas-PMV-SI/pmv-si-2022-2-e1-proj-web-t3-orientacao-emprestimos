@@ -321,7 +321,7 @@ input{
     -webkit-transform: scale(0.5);
     transform: scale(1.1);
 }
-button{
+.button{
     background-color: #49E295;
     border-style: outset;
     color: #6f7974;

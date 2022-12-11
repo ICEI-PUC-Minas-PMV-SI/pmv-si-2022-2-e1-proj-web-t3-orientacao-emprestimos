@@ -189,7 +189,20 @@ input[type=checkbox] {
     text-align: center;
 }
 
-	
+#redefinir{
+    z-index: 5;
+    background-color: #49E295 !important;
+    border-style: outset;
+    color: #6f7974;
+    border-radius: 30px;
+    height: 30px;
+    width: 120px;
+    font-size: 80%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 45%;
+}
 .analise form {
     display: flex;
     align-items: center;
@@ -357,7 +370,7 @@ footer {
         left: 0;
         text-align: center;
         padding: 16px 0;
-    }}
+    }
 
     .menu li {
         margin-top: 12px;

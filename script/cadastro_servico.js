@@ -1,25 +1,8 @@
-let chaveUsuarioAutenticado = "usuario_autenticado"
-let chaveUsuariosCadastrados = "usuarios_cadastrados"
-
-function carregaUsuarioMock() {
-    let usuarioAutenticado = {
-        nome: "Rafael",
-        sobreNome: "martins",
-        email: "rafael@teste.com.br",
-        cpf: "123.456.789-00",
-        senha: "1234567"
-    }
-
-    localStorage.setItem(chaveUsuarioAutenticado, JSON.stringify(usuarioAutenticado))
-
-    let usuariosCadastrados = new Array(usuarioAutenticado)
-
-    localStorage.setItem(chaveUsuariosCadastrados, JSON.stringify(usuariosCadastrados))
-}
+const chaveUsuarioLogado = "usuario_logado";
+const chaveUsuariosCadastrados = "usuarios_cadastrados";
 
 function alteraCadastroUsuario() {
-    let usuarioAutenticado = JSON.parse(localStorage.getItem(chaveUsuarioAutenticado))
-    let usuariosCadastrados = JSON.parse(localStorage.getItem(chaveUsuariosCadastrados))
+    let usuarioLogado = JSON.parse(localStorage.getItem(chaveUsuarioLogado))
 
     let nome = document.querySelector("#nome").value
     let sobreNome = document.querySelector("#sobre_nome").value
@@ -27,23 +10,24 @@ function alteraCadastroUsuario() {
     let senha = document.querySelector("#senha").value
 
     if(nome != "") {
-        usuarioAutenticado.nome = nome
+      usuarioLogado.nome = nome
     }
 
     if(sobreNome != "") {
-        usuarioAutenticado.sobreNome = sobreNome
+      usuarioLogado.sobreNome = sobreNome
     }
 
     if(email != "") {
-        usuarioAutenticado.email = email
+      usuarioLogado.email = email
     }
 
     if(senha != "") {
-        usuarioAutenticado.senha = senha
+      usuarioLogado.senha = senha
     }
 
-    localStorage.setItem(chaveUsuarioAutenticado, JSON.stringify(usuarioAutenticado))
+    localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado))
 }
+
 //função de cadastro js com json e local storage
 //função de cadastro js com json e local storage
 function cadastrar() {
@@ -77,8 +61,7 @@ function cadastrar() {
         data: `${data}`,
       }
     )
-    console.log("depois do push")
-    console.log(usuariosCadastrados)
+
     localStorage.setItem(key, JSON.stringify(usuariosCadastrados));
     alert("Usuario Cadastrado com Sucesso!!");
 
@@ -92,50 +75,37 @@ function cadastrar() {
     document.getElementById("data").value = "";
     document.getElementById("senha").value = "";
 
-  }
-  else {
+  } else {
     alert("Preencha todos os campos socilitados");
   }
-
 }
-
 
 function entrar() {
   let email = document.querySelector("#email").value;
   let senha = document.querySelector("#senha").value;
 
-  let chaveUsuariosCadastrados = "usuarios_cadastrados";
-  let chaveUsuarioLogado = "usuario_logado";
-
   let usuariosCadastrados = JSON.parse(localStorage.getItem(chaveUsuariosCadastrados))
   let usuarioExiste = false;
-  console.log(usuariosCadastrados)
   let usuarioLogado;
+
   if(usuariosCadastrados==null){
     alert ("Cadastro não encontrado")
-  }
-  else{
-  usuariosCadastrados.forEach(usuarioCadastrado => {
-
+  } else{
+    usuariosCadastrados.forEach(usuarioCadastrado => {
 
     if (usuarioCadastrado.senha == senha && usuarioCadastrado.email == email) {
       usuarioLogado = usuarioCadastrado;
       localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado));
       usuarioExiste = true;
+    }
+    })
 
-
+    if (usuarioExiste == true) {
+      window.location.replace("./ofertas.html");
+    } else {
+      alert("E-mail ou senha incorretos");
     }
   }
-  )
-
-  if (usuarioExiste == true) {
-    window.location.replace("./ofertas.html");
-  }
-
-  else {
-    alert("E-mail ou senha incorretos");
-  }
-}
 }
 
 //formata a data no input
@@ -145,15 +115,13 @@ function formatarData(e) {
   var v = e.target.value.replace(/\D/g, "");
 
   v = v.replace(/(\d{2})(\d)/, "$1/$2")
-
   v = v.replace(/(\d{2})(\d)/, "$1/$2")
 
   e.target.value = v;
-
 }
+
 //Formata o cpf no input
 function mascaraCpf(i) {
-
   var v = i.value;
 
   if (isNaN(v[v.length - 1])) {
@@ -164,8 +132,8 @@ function mascaraCpf(i) {
   i.setAttribute("maxlength", "14");
   if (v.length == 3 || v.length == 7) i.value += ".";
   if (v.length == 11) i.value += "-";
-
 }
+
 //Formata o telefone
 const mascaraTelefone = (event) => {
   let input = event.target
@@ -190,10 +158,8 @@ function validarSenha() {
     confirmSenha.setCustomValidity("");
     return true;
   }
-
-
-
 }
+
 // valida força da senha
 confirmSenha.addEventListener('input', validarSenha);
 function senhaV() {
@@ -203,16 +169,15 @@ function senhaV() {
   if (senha.length < 8) {
     alert("A senha deve conter no minímo 8 digitos!");
     return false;
-  }
-  else if (!regex.exec(senha)) {
+  } else if (!regex.exec(senha)) {
     alert("A senha deve conter no mínimo 1 caracteres em maiúsculo, 1 números e 1 caractere especial!");
     return false;
   }
+
   return true;
-} 
+}
+
 function alterarSenha() {
-  let chaveUsuarioLogado = "usuario_logado";
-  let chaveUsuariosCadastrados = "usuarios_cadastrados";
   let usuariosCadastrados = JSON.parse(localStorage.getItem(chaveUsuariosCadastrados));
   let usuarioLogado = JSON.parse(localStorage.getItem(chaveUsuarioLogado));
   let def = "4fc0e75b-0735-44b5";
@@ -220,32 +185,29 @@ function alterarSenha() {
   let novaSenha = document.querySelector("#alteraSenha").value;
   let confirmEmail = document.querySelector("#confirmEmail").value;
   let codigo = document.querySelector("#alterarCodigo").value;
-  console.log(codigo);
-  if(usuariosCadastrados!=null){
+  
+  if(usuariosCadastrados!=null) {
   usuariosCadastrados.forEach(usuarioCadastrado => {
-
 
     if (def == codigo && usuarioCadastrado.email == confirmEmail) {
       usuarioCadastrado.senha = novaSenha;
       usuarioExiste = true;
     }
-  }
-  )
+  })
+  
   if (usuarioExiste == true) {
     usuarioLogado.senha = novaSenha;
     alert("Sua senha foi alterada com sucesso!")
     window.location.replace("./login.html");
-  }
-
-  else {
+  } else {
     alert("E-mail ou código");
   }
+
   localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado));
   localStorage.setItem(chaveUsuariosCadastrados, JSON.stringify(usuariosCadastrados));
-}
-else{
-  alert("Não foi possível localizar sua conta");
-}
+  } else{
+    alert("Não foi possível localizar sua conta");
+  }
 }
 
 function verificarAlterada() {
@@ -255,10 +217,9 @@ function verificarAlterada() {
   if (novaSenha.length < 8) {
     alert("A senha deve conter no minímo 8 digitos!");
     return false;
-  }
-  else if (!regex.exec(novaSenha)) {
+  } else if (!regex.exec(novaSenha)) {
     alert("A senha deve conter no mínimo 1 caracteres em maiúsculo, 1 números e 1 caractere especial!");
     return false;
   }
   return true;
-} 
+}

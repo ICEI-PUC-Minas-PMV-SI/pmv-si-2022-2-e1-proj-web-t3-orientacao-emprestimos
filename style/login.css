@@ -393,9 +393,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .menu {
         display: none;
         position: absolute;
-        background-color: #1F2D27;
+        background-color: #EDF0EF;
         right: 0;
         left: 0;
         text-align: center;

@@ -1,5 +1,6 @@
 const chaveSolicitacoesAnaliseCadastradas = "solicitacoes_analise_cadastradas"
 const chaveSolicitacoesAnaliseEnviadas = "solicitacoes_analise_enviadas"
+const chaveUsuarioLogado = "usuario_logado"
 
 function carregarSolicitacoesAnalise() {
   salvaSolicitacoesAnaliseCadastradas()
@@ -11,8 +12,6 @@ function carregarSolicitacoesAnalise() {
 
   let solicitacoesDiv = document.getElementById("solicitacoes_analise")
   let solicitacoesLista = document.createElement("ul")
-
-  console.log(solicitacoesAnalise)
 
   solicitacoesAnalise.forEach(solicitacaoAnalise => {
     if(solicitacaoAnalise != null) {
@@ -149,15 +148,26 @@ function criaQuebraEspacoItem(item) {
 }
 
 document.getElementById('form_analise').addEventListener('submit', function(event) {
-  emailjs.init('mc6Vxmtk1LHv_sXwA')
+  emailjs.init('Rd1rqJESmjJAXIyUK')
   
   event.preventDefault()
 
-  const serviceID = 'default_service'
-  const templateID = 'analise_qcjqgub'
+  const serviceID = 'service_qyk4qm5'
+  const templateID = 'template_2ki0r5m'
 
-  emailjs.sendForm(serviceID, templateID, this)
-  .then(() => {
+  let dataAtual = new Date()
+
+  let solicitacaoAnalise = {
+    valor_parcela: `R$ ${this.valor_parcela.value}`,
+    valor_contratado: `R$ ${this.valor_contratado.value}`,
+    numero_parcelas: this.numero_parcelas.value,
+    instituicao_financeira: this.instituicao_financeira.value,
+    id_solicitacao: Math.floor(Math.random() * 65536),
+    data_solicitacao: `${dataAtual.getDate()}/${dataAtual.getMonth() + 1}/${dataAtual.getFullYear()}`,
+    cpf: JSON.parse(localStorage.getItem(chaveUsuarioLogado)).cpf
+  }
+
+  emailjs.send(serviceID, templateID, solicitacaoAnalise).then(() => {
     salvaSolicitacaoAnalise()
     carregaPaginaSolicitacaoAnaliseEnviadaSucesso()
   }, (err) => {

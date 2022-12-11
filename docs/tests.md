@@ -18,7 +18,7 @@
 |------|-----------------------------------------|
 |Requisito associado| RF-004 O sistema deve permitir que o usuário consulte os dados do seu cadastro |
 |Objetivo do teste | Validar que o usuário consiga visualizar os dados do seu cadastro. |
-|Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Ao acessar o usuário terá a visualização dos dados do cadastro na tela de perfil |
+|Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Clicar na opção Perfil <br> 6. Ao acessar o perfil, o usuário terá a visualização dos dados do cadastro|
 |Critério de êxito| O site deve mostrar as informações do cadastro do usuário |
 
 |Caso de teste    | CT-05 - Realizar a alteração da senha cadastrada  |
@@ -32,7 +32,7 @@
 |------|-----------------------------------------|
 |Requisito associado| RF-006 O sistema deve permitir que o usuário exclua seu cadastro |
 |Objetivo do teste | Validar que o usuário consiga excluir o seu cadastro. |
-|Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Clicar na opção "Deseja excluir sua conta? Clique aqui" <br> 6. Clicar na opção "Excluir meu cadastro" |
+|Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Clicar na opção Perfil <br> 6. Clicar na opção "Deseja excluir sua conta? Clique aqui" <br> 7. Clicar na opção "Excluir meu cadastro" |
 |Critério de êxito| O site deve mostrar uma mensagem de confirmação de que o usuário foi excluído e redireciona-lo para a pagina inicial |
 
 |Caso de teste    | CT-010 - Acessar os conteúdos de Educação Financeira  |
@@ -53,7 +53,7 @@
 |------|-----------------------------------------|
 |Requisito associado| RF-012 O sistema deve permitir que o cliente envie um feedback sobre as instituições previamente cadastradas no sistema |
 |Objetivo do teste | Validar que o usuário consiga enviar uma avaliação de uma das instituições da lista de bancos cadastrados. |
-|Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Clicar na opção Ofertas <br> 6. Selecionar o banco desejado e escrever a avaliação <br> 7. Clicar no botão de enviar|
+|Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Selecionar o banco desejado e escrever a avaliação <br> 7. Clicar no botão de enviar|
 |Critério de êxito| O site deve mostrar uma mensagem de confirmação de que a avaliação foi enviada |
 
 

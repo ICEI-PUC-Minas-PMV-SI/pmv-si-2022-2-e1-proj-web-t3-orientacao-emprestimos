@@ -1,30 +1,32 @@
-document.getElementById('form_analise').addEventListener('submit', function(event) {
-    emailjs.init('mc6Vxmtk1LHv_sXwA')
-    
-    event.preventDefault()
-  
-    const serviceID = 'default_service'
-    const templateID = 'analise_qcjqgub'
-  
-    emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      carregaSolicitacoesAnaliseCadastradas()
-      salvaSolicitacaoAnalise()
-      carregaPaginaSolicitacaoAnaliseEnviadaSucesso()
-    }, (err) => {
-      carregaPaginaSolicitacaoAnaliseEnviadaErro()
-    })
-  })
-  
-function carregaPaginaSolicitacaoAnaliseEnviadaSucesso() {
-  window.location = "solicitacao_analise_sucesso.html"
+const chaveSolicitacoesAnaliseCadastradas = "solicitacoes_analise_cadastradas"
+const chaveSolicitacoesAnaliseEnviadas = "solicitacoes_analise_enviadas"
+
+function carregarSolicitacoesAnalise() {
+  salvaSolicitacoesAnaliseCadastradas()
+
+  let solicitacoesAnaliseCadastradas = JSON.parse(localStorage.getItem(chaveSolicitacoesAnaliseCadastradas))
+  let solicitacoesAnaliseEnviadas = JSON.parse(localStorage.getItem(chaveSolicitacoesAnaliseEnviadas))
+
+  let solicitacoesAnalise = solicitacoesAnaliseCadastradas.concat(solicitacoesAnaliseEnviadas)
+
+  let solicitacoesDiv = document.getElementById("solicitacoes_analise")
+  let solicitacoesLista = document.createElement("ul")
+
+  console.log(solicitacoesAnalise)
+
+  solicitacoesAnalise.forEach(solicitacaoAnalise => {
+    if(solicitacaoAnalise != null) {
+      let item = document.createElement("li")
+      let itemComCamposEValores = criaCamposValoresHtml(item, solicitacaoAnalise)
+      
+      solicitacoesLista.appendChild(itemComCamposEValores)
+    }
+  });
+
+  solicitacoesDiv.appendChild(solicitacoesLista)
 }
 
-function carregaPaginaSolicitacaoAnaliseEnviadaErro() {
-  window.location = "solicitacao_analise_enviada_erro.html"
-}
-
-function carregaSolicitacoesAnaliseCadastradas() {
+function salvaSolicitacoesAnaliseCadastradas() {
   let solicitacoesCadastradas = [
     {
       instituicaoFinanceira: "Banco São Paulo 123",
@@ -46,7 +48,129 @@ function carregaSolicitacoesAnaliseCadastradas() {
     },
   ]
 
-  localStorage.setItem("solicitacoes_analise", JSON.stringify(solicitacoesCadastradas))
+  localStorage.setItem(chaveSolicitacoesAnaliseCadastradas, JSON.stringify(solicitacoesCadastradas))
+}
+
+function criaCamposValoresHtml(item, solicitacaoAnalise) {
+  criaCampoValorStatus(item, solicitacaoAnalise)
+  criaCampoValorInstituicaoFinanceira(item, solicitacaoAnalise)
+  criaCampoValorDataSolicitacao(item, solicitacaoAnalise)
+  criaCampoValorValorParcela(item, solicitacaoAnalise)
+  criaCampoValorValorContratado(item, solicitacaoAnalise)
+  criaCampoValorNumeroParcelas(item, solicitacaoAnalise)
+  criaCampoValorAnalise(item, solicitacaoAnalise)
+  criaQuebraEspacoItem(item)
+
+  return item 
+}
+
+function criaCampoValorStatus(item, solicitacaoAnalise) {
+  let campoSubTitulo = document.createElement("h2")
+  let valorLabel = document.createElement("label")
+
+  campoSubTitulo.innerHTML = "Status"
+  valorLabel.innerHTML = solicitacaoAnalise.status
+
+  item.appendChild(campoSubTitulo)
+  item.appendChild(valorLabel)
+}
+
+function criaCampoValorInstituicaoFinanceira(item, solicitacaoAnalise) {
+  let instituicaoFinanceiraSubTitulo = document.createElement("h2")
+  let instituicaoFinanceiraLabel = document.createElement("label")
+
+  instituicaoFinanceiraSubTitulo.innerHTML = "Instituição Financeira"
+  instituicaoFinanceiraLabel.innerHTML = solicitacaoAnalise.instituicaoFinanceira
+
+  item.appendChild(instituicaoFinanceiraSubTitulo)
+  item.appendChild(instituicaoFinanceiraLabel)
+}
+
+function criaCampoValorDataSolicitacao(item, solicitacaoAnalise) {
+  let campoSubTitulo = document.createElement("h2")
+  let valorLabel = document.createElement("label")
+
+  valorLabel.setAttribute("id", "teste")
+
+  campoSubTitulo.innerHTML = "Data da solicitação"
+  valorLabel.innerHTML = solicitacaoAnalise.data
+
+  item.appendChild(campoSubTitulo)
+  item.appendChild(valorLabel)
+}
+
+function criaCampoValorAnalise(item, solicitacaoAnalise) {
+  let campoSubTitulo = document.createElement("h2")
+  let valorLabel = document.createElement("label")
+
+  campoSubTitulo.innerHTML = "Análise"
+  valorLabel.innerHTML = solicitacaoAnalise.analise
+
+  item.appendChild(campoSubTitulo)
+  item.appendChild(valorLabel)
+}
+
+function criaCampoValorValorParcela(item, solicitacaoAnalise) {
+  let campoSubTitulo = document.createElement("h2")
+  let valorLabel = document.createElement("label")
+
+  campoSubTitulo.innerHTML = "Valor da Parcela"
+  valorLabel.innerHTML = `R$ ${solicitacaoAnalise.valorParcela}`
+
+  item.appendChild(campoSubTitulo)
+  item.appendChild(valorLabel)
+}
+
+function criaCampoValorValorContratado(item, solicitacaoAnalise) {
+  let campoSubTitulo = document.createElement("h2")
+  let valorLabel = document.createElement("label")
+
+  campoSubTitulo.innerHTML = "Valor Contratado"
+  valorLabel.innerHTML = `R$ ${solicitacaoAnalise.valorContratado}`
+
+  item.appendChild(campoSubTitulo)
+  item.appendChild(valorLabel)
+}
+
+function criaCampoValorNumeroParcelas(item, solicitacaoAnalise) {
+  let campoSubTitulo = document.createElement("h2")
+  let valorLabel = document.createElement("label")
+
+  campoSubTitulo.innerHTML = "Número de Parcelas"
+  valorLabel.innerHTML = solicitacaoAnalise.numeroParcelas
+
+  item.appendChild(campoSubTitulo)
+  item.appendChild(valorLabel)
+}
+
+function criaQuebraEspacoItem(item) {
+  let quebraItem = document.createElement("hr")
+  item.appendChild(quebraItem)
+}
+
+document.getElementById('form_analise').addEventListener('submit', function(event) {
+  emailjs.init('mc6Vxmtk1LHv_sXwA')
+  
+  event.preventDefault()
+
+  const serviceID = 'default_service'
+  const templateID = 'analise_qcjqgub'
+
+  emailjs.sendForm(serviceID, templateID, this)
+  .then(() => {
+    salvaSolicitacaoAnalise()
+    carregaPaginaSolicitacaoAnaliseEnviadaSucesso()
+  }, (err) => {
+    carregaPaginaSolicitacaoAnaliseEnviadaErro()
+  })
+})
+
+function carregaPaginaSolicitacaoAnaliseEnviadaSucesso() {
+  window.location = "solicitacao_analise_sucesso.html"
+}
+
+function carregaPaginaSolicitacaoAnaliseEnviadaErro() {
+  window.location = "solicitacao_analise_enviada_erro.html"
 }
 
 function salvaSolicitacaoAnalise() {
@@ -60,13 +184,18 @@ function salvaSolicitacaoAnalise() {
     valorContratado: document.getElementById("valor_contratado").value,
     data: `${dataAtual.getDate()}/${dataAtual.getMonth() + 1}/${dataAtual.getFullYear()}`,
     status: "PENDENTE",
-    analise: ""
+    analise: "Essa solicitação ainda na fila do nosso time de crédito, em breve será analisada e você vai saber se é recomendada ou não."
   }
 
-  let solicitacoesAnaliseCadastradas = JSON.parse(localStorage.getItem("solicitacoes_analise"))
+  let solicitacoesAnaliseEnviadas
+  
+  if(localStorage.getItem(chaveSolicitacoesAnaliseEnviadas) == null) {
+    solicitacoesAnaliseEnviadas = new Array()
+  } else {
+    solicitacoesAnaliseEnviadas = JSON.parse(localStorage.getItem(chaveSolicitacoesAnaliseEnviadas)) == null
+  }
 
-  solicitacoesAnaliseCadastradas.push(solicitacaoAnalise)
+  solicitacoesAnaliseEnviadas.push(solicitacaoAnalise)
 
-  localStorage.setItem("solicitacoes_analise", JSON.stringify(solicitacoesAnaliseCadastradas))
-  localStorage.clear
+  localStorage.setItem(chaveSolicitacoesAnaliseEnviadas, JSON.stringify(solicitacoesAnaliseEnviadas))
 }

@@ -322,6 +322,22 @@ input{
     -webkit-transform: scale(0.5);
     transform: scale(1.1);
 }
+#redefinir{
+    z-index: 5;
+    background-color: #49E295 !important;
+    border-style: outset;
+    color: #6f7974;
+    border-radius: 30px;
+    height: 40px;
+    width: 120px;
+    font-size: 80%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#redefinir:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.1);
+}
 .button{
     background-color: #49E295;
     border-style: outset;

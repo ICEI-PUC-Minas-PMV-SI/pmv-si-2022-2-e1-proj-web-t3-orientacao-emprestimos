@@ -82,7 +82,7 @@ function cadastrar() {
     localStorage.setItem(key, JSON.stringify(usuariosCadastrados));
     alert("Usuario Cadastrado com Sucesso!!");
 
-    window.location.replace("https://icei-puc-minas-pmv-si.github.io/pmv-si-2022-2-e1-proj-web-t3-orientacao-emprestimos/login.html");
+    window.location.replace("./login.html");
     //limpa os campos do cadastro
     document.getElementById("nome").value = "";
     document.getElementById("sobrenome").value = "";
@@ -98,6 +98,7 @@ function cadastrar() {
   }
 
 }
+
 
 function entrar() {
   let email = document.querySelector("#email").value;

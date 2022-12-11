@@ -14,7 +14,7 @@ function excluiUsuario() {
             localStorage.setItem('usuarios_cadastrados', JSON.stringify(novosUsuariosCadastrados))
             localStorage.removeItem('usuario_logado')
             window.alert('Sua conta foi excluída com sucesso')
-            window.location.href = "index.html";
+            window.location.href = "https://icei-puc-minas-pmv-si.github.io/pmv-si-2022-2-e1-proj-web-t3-orientacao-emprestimos/index.html#";
         };
     });
 }

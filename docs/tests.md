@@ -14,6 +14,20 @@
 |Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site. <br> 3. Clicar na opção Entrar<br>4. Clicar na opção Catrastre-se<br> 5. Preencher os campos do formulário<br> 6. Clicar em Cadastrar<br>|
 |Critério de êxito|Efetuar o Cadastro no site|
 
+|Caso de teste    | CT-03 - Aterar dados do cadastro |
+|------|-----------------------------------------|
+|Requisito associado| RF-003 O sistema deve permitir que o usuário edite os dados do seu cadastro |
+|Objetivo do teste | Validar que usuário consegue alterar seus dados cadatrais |
+|Passos| 1 - Acessar o navegador.<br> 2 - Informar o endereço do site.<br> 3 - Clicar na opção Entrar.<br> 4 - Realizar Login.<br> 5 - Acessar página Perfil.<br> 6 - Acessar página Alteração de Cadastro.<br> 7 - Preencher Nome, Email e Confirme Senha.<br> 8 - Clique no botão Alterar.<br> 9 - Acesse a página Perfil.<br> 10 - Valida que os dados preenchidos no formulário de alteração refletiram na tela de Perfil. |
+|Critério de êxito| Alterar do cadastro do usuário |
+
+|Caso de teste    | CT-03NF - Validar que aplicação dispara requisição HTTP |
+|------|-----------------------------------------|
+|Requisito associado| RNF-003 O envio do formulário de análise deve ser realizado por uma API |
+|Objetivo do teste | Validar que aplicação envia requisição HTTP para uma API REST |
+|Passos| 1 - Acessar o navegador.<br> 2 - Informar o endereço do site.<br> 3 - Clicar na opção Entrar.<br> 4 - Realizar Login.<br> 5 - Acessar página Análise.<br> 6 - Preencher dados da Proposta de Crédito Consignado.<br> 7 - Clique no botão Enviar.<br> 8 - Valique que requisição HTTP para servidor do EmailJs. |
+|Critério de êxito| Validar integração da aplicação com a API EmailJs para solicitação de análise |
+
 |Caso de teste    | CT-04 - Realizar consulta de cadastro  |
 |------|-----------------------------------------|
 |Requisito associado| RF-004 O sistema deve permitir que o usuário consulte os dados do seu cadastro |
@@ -34,6 +48,27 @@
 |Objetivo do teste | Validar que o usuário consiga excluir o seu cadastro. |
 |Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Clicar na opção Perfil <br> 6. Clicar na opção "Deseja excluir sua conta? Clique aqui" <br> 7. Clicar na opção "Excluir meu cadastro" |
 |Critério de êxito| O site deve mostrar uma mensagem de confirmação de que o usuário foi excluído e redireciona-lo para a pagina inicial |
+
+|Caso de teste    | CT-07 - Enviar solicitação de análise de proposta de crédito consignado  |
+|------|-----------------------------------------|
+|Requisito associado| RF-007 O sistema deve permitir que um usuário logado possa preencher um formulário de análise de crédito consignado |
+|Objetivo do teste | Validar que usuário consegue solicitar análise de proposta de crédito consignado |
+|Passos| 1 - Acessar o navegador.<br> 2 - Informar o endereço do site.<br> 3 - Clicar na opção Entrar.<br> 4 - Realizar Login.<br> 5 - Acessar página Análise.<br> 6 - Preencher dados da Proposta de Crédito Consignado.<br> 7 - Clique no botão Enviar.<br> 8 - Valique que foi redirecionado para página de Sucesso. |
+|Critério de êxito| Enviar solicitação de análise para proposta de crédito consignado usuário |
+
+|Caso de teste    | CT-08 - Consultar histórico de análise após solicitar análise |
+|------|-----------------------------------------|
+|Requisito associado| RF-008 Todo formulário que for submetido para análise entrará na lista do usuário com o status de pendente |
+|Objetivo do teste | Validar que usuário consegue visualizar solicitações de análise de propostas em página de Histórico |
+|Passos| 1 - Acessar o navegador.<br> 2 - Informar o endereço do site.<br> 3 - Clicar na opção Entrar.<br> 4 - Realizar Login.<br> 5 - Acessar página Análise.<br> 6 - Preencher dados da Proposta de Crédito Consignado.<br> 7 - Clique no botão Enviar.<br> 8 - Acesse página Histórico.<br> 9 - Valide que solicitação de análise enviada consta no histórico com status PENDENTE. |
+|Critério de êxito| Consultar histórico das solicitações de análise das propostas enviadas pelo usuário |
+
+|Caso de teste    | CT-09 - Acessar email de notificação da solicitação de análise de crédito consignado |
+|------|-----------------------------------------|
+|Requisito associado| RF-009 Todo formulário de solicitação de análise com o status de pendente será analisado e respondido através do e-mail previamente cadastrado pelo cliente |
+|Objetivo do teste | Validar que colaborador do time de Analistas de Crédito recebe email com solicitação de análise da proposta |
+|Passos| 1 - Acessar o navegador.<br> 2 - Informar o endereço do site.<br> 3 - Clicar na opção Entrar.<br> 4 - Realizar Login.<br> 5 - Acessar página Análise.<br> 6 - Preencher dados da Proposta de Crédito Consignado.<br> 7 - Clique no botão Enviar.<br> 8 - Valique que email foi disparado para endereço de time de Analistas de Crédito. |
+|Critério de êxito| Consultar email da solicitação de análise das propostas enviadas pelo usuário |
 
 |Caso de teste    | CT-010 - Acessar os conteúdos de Educação Financeira  |
 |------|-----------------------------------------|

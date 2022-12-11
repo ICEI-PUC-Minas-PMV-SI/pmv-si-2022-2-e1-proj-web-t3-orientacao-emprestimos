@@ -192,7 +192,7 @@ function salvaSolicitacaoAnalise() {
   if(localStorage.getItem(chaveSolicitacoesAnaliseEnviadas) == null) {
     solicitacoesAnaliseEnviadas = new Array()
   } else {
-    solicitacoesAnaliseEnviadas = JSON.parse(localStorage.getItem(chaveSolicitacoesAnaliseEnviadas)) == null
+    solicitacoesAnaliseEnviadas = JSON.parse(localStorage.getItem(chaveSolicitacoesAnaliseEnviadas))
   }
 
   solicitacoesAnaliseEnviadas.push(solicitacaoAnalise)

@@ -94,7 +94,17 @@
 
 # Registro de Testes de Software
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+CT-04 - Realizar consulta de cadastro
+https://drive.google.com/file/d/18Ugs6WvDB9r-1m6FVLaSXVYfhnEesysR/view?usp=sharing
+
+CT-06 - Realizar a exclusão do cadastro
+https://drive.google.com/file/d/1OmY3kNadso-6CCJFbMf3TxVJtspwOSNk/view?usp=sharing
+
+CT-11 - Visualizar lista de bancos
+https://drive.google.com/file/d/1GgMXRft5tkAi6kwRJLjYWC7JdOrg1dJS/view?usp=sharing
+
+CT-12 - Realizar avaliação de uma instituição cadastrada
+https://drive.google.com/file/d/1k3GR2aIA8mTdObQHIx-f7PrZtVV6uXCX/view?usp=sharing
 
 ## Avaliação
 

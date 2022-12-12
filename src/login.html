@@ -5,55 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style/login.css" media="screen" />
     <title>Orientação de Emprestimos</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="nomeproj">ConsigFácil</div>
+        <div class="nomeproj"><a href="index.html">ConsigFácil</a></div>
         <ul class="nav-links">
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="responsivo">&#9776;</label>
             <div class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Análise</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ofertasoff.html">Ofertas</a></li>
                 <li><a href="login.html">Entrar</a></li>
             </div>
         </ul>
     </nav>
     <div class="conteudo">
             <div id="login">
-                <form method="get" action="index.html">
                     <h1 id="form_h1">Entrar</h1>
                     <p>
-                        <label for="email_login">Usuário<br></label>
-                        <input id="form" required="required" type="email" />
+                        <label id="labelEmail"for="email">Email</label> <br>
+                        <input id="email"type="email" value="" placeholder="E-mail">
                     </p>
 
                     <p>
-                        <label for="senha_login">Senha<br></label>
-                        <input id="form" required="required" type="password" />
+                        <label id="labelSenha" for="senha"> Senha</label><br>  
+                        <input id="senha" type="password" value="" placeholder="Senha">   
                     </p>
-
                     <p>
-                        <input id="submit"type="submit" value="Continuar" />
-                    </p>
+                        <button onclick='entrar()' id="cadastrar" type="submit">Entrar</button>
+                    </p>  
                     <p class="link">
-                        <a href="forgetpass.html" id="link">Esqueci minha senha</a>
+                        <a href="esquecisenha.html" id="link">Esqueci minha senha</a>
                     </p>
                     <p class="link">
                         Ainda não tem conta?
                         <a href="cadastro.html" id="link">Cadastre-se</a>
                     </p>
                     
-                </form>
+
             </div>
     </div>
     </div>
 </div>
 <footer>ConsigFácil ©</footer>
+<script src="./script/cadastro_servico.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@
         </ul>
     </nav>
     <div class="conteudo">
-        <div id="login">
+        <div id="analise">
             <h1 id="form_h1">Análise de Crédito Consignado</h1>
             <article id="analise_article">
                 <p>
@@ -31,7 +31,7 @@
                     é recomendada pra você ou não. O resultado da análise é enviado para o seu email cadastrado em até 48 horas.
                 </p>
             </article>
-            <form id="form_analise">
+            <form>
                 <p>
                     <label for="instituicao_financeira">Instituição financeira</label>
                     <br>
@@ -45,20 +45,20 @@
                 <p>
                     <label for="numero_parcelas">Número parcelas</label>
                     <br>
-                    <input type="number" class="number_input" required="required" id="numero_parcelas">
+                    <input type="number" required="required" id="numero_parcelas">
                 </p>
                 <p>
                     <label for="valor_parcela">Valor parcela</label>
                     <br>
-                    <input type="number" class="number_input" required="required" id="valor_parcela">
+                    <input type="number" required="required" id="valor_parcela">
                 </p>
                 <p>
                     <label for="valor_contratado">Valor contratado</label>
                     <br>
-                    <input type="number" class="number_input" required="required" id="valor_contratado">
+                    <input type="number" required="required" name="valor_contratado">
                 </p>
                 <p>
-                    <input id="submit" type="submit" value="Enviar"/>
+                    <button type="submit">Enviar</button>
                 </p>
             </form>
             <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>

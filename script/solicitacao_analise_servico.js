@@ -164,8 +164,7 @@ document.getElementById('form_analise').addEventListener('submit', function(even
     instituicao_financeira: this.instituicao_financeira.value,
     id_solicitacao: Math.floor(Math.random() * 65536),
     data_solicitacao: `${dataAtual.getDate()}/${dataAtual.getMonth() + 1}/${dataAtual.getFullYear()}`,
-    cpf: JSON.parse(localStorage.getItem(chaveUsuarioLogado)).cpf,
-    email: JSON.parse(localStorage.getItem(chaveUsuarioLogado)).email
+    cpf: JSON.parse(localStorage.getItem(chaveUsuarioLogado)).cpf
   }
 
   emailjs.send(serviceID, templateID, solicitacaoAnalise).then(() => {

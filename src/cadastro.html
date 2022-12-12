@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/cadastro.css" media="screen" />
+    <title>Orientação de Emprestimos</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nomeproj">ConsigFácil</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="responsivo">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ofertasoff.html">Ofertas</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="conteudo">
+    <div class="container">
+        <div id="cadastro">      
+                    <h1>Cadastro</h1>
+                    <p>
+                        <label for="labelNome">Nome<br></label>
+                        <input id="nome" required="required" type="text" />
+                    </p>                    
+                    <p>
+                        <label for="labelSobrenome">Sobrenome<br></label>
+                        <input id="sobrenome" required="required" type="text" />
+                    </p>
+                    <p>
+                        <label for="labelCpf">CPF<br></label>
+                        <input oninput="mascaraCpf(this)" id="cpf" required="required" type="text"  maxlength="11" autocomplete="off"/>
+                    </p>
+                    <p>
+                        <label for="labelTelefone">Telefone<br></label>
+                        <input id="telefone" required="required" type="tel" maxlength="15" onkeyup="mascaraTelefone(event)"/>
+                    </p>
+                    <p>
+                        <label for="labelEmail">E-mail<br></label>
+                        <input id="email" required="required" type="email" />
+                    </p>
+                    <p>
+                        <label for="labelData">Data de Nascimento<br></label>
+                        <input id="data" required="required" type="text" maxlength="10"/>
+                    </p>
+                    <p>
+                        <label for="labelSenha">Senha<br></label>
+                        <input onblur="senhaV()" id="senha" required="required" type="password" />
+                    </p>
+                    <p>
+                        <label for="labelConfirmsenha">Confirme sua senha<br></label>
+                        <input id="confirmSenha" required="required" type="password" />
+                    </p>
+                    <p>
+                        <button onclick='cadastrar()' id="cadastrar" type="submit">Cadastrar</button>
+                    </p>                   
+        </div>
+    </div>
+    </div>
+</div>
+<footer>ConsigFácil ©</footer>
+<script src="./script/cadastro_servico.js"></script>
+</body>
+
+</html>

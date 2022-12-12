@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+    <title>Orientação de Emprestimos</title>
+</head>
+
+<body>
+    <nav class="navbar">
+            <div class="nomeproj"><a href="index.html">ConsigFácil</a></div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="responsivo">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ofertasoff.html">Ofertas</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="conteudo">
+        <div class="container">
+            <a class="links" id="paracadastro"></a>
+            <a class="links" id="paralogin"></a>
+
+            <div class="cont_login">
+
+                <div id="login">
+                    <form id="redefinir_senha">
+                        <h1>Esqueci minha senha</h1>
+                        <p>Para realizar a alteração de sua senha preencha o e-mail cadastrado</p>
+                        <p>
+                            <label for="email_login">Email cadastrado<br></label>
+                            <input id="email" required="required" type="email" />
+                        </p>
+                        <p>
+                            <a href='./esquecisenha2.html'><input id="redefinir"type="submit"></a>
+                        </p>
+
+                </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>ConsigFácil ©</footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="./script/redefinir_senha.js"></script>
+</body>
+
+</html>

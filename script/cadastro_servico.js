@@ -2,30 +2,30 @@ const chaveUsuarioLogado = "usuario_logado";
 const chaveUsuariosCadastrados = "usuarios_cadastrados";
 
 function alteraCadastroUsuario() {
-    let usuarioLogado = JSON.parse(localStorage.getItem(chaveUsuarioLogado))
+  let usuarioLogado = JSON.parse(localStorage.getItem(chaveUsuarioLogado))
 
-    let nome = document.querySelector("#nome").value
-    let sobreNome = document.querySelector("#sobre_nome").value
-    let email = document.querySelector("#email").value
-    let senha = document.querySelector("#senha").value
+  let nome = document.querySelector("#nome").value
+  let sobreNome = document.querySelector("#sobre_nome").value
+  let email = document.querySelector("#email").value
+  let senha = document.querySelector("#senha").value
 
-    if(nome != "") {
-      usuarioLogado.nome = nome
-    }
+  if(nome != "") {
+    usuarioLogado.nome = nome
+  }
 
-    if(sobreNome != "") {
-      usuarioLogado.sobreNome = sobreNome
-    }
+  if(sobreNome != "") {
+    usuarioLogado.sobreNome = sobreNome
+  }
 
-    if(email != "") {
-      usuarioLogado.email = email
-    }
+  if(email != "") {
+    usuarioLogado.email = email
+  }
 
-    if(senha != "") {
-      usuarioLogado.senha = senha
-    }
+  if(senha != "") {
+    usuarioLogado.senha = senha
+  }
 
-    localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado))
+  localStorage.setItem(chaveUsuarioLogado, JSON.stringify(usuarioLogado))
 }
 
 //função de cadastro js com json e local storage

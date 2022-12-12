@@ -181,7 +181,7 @@ function carregaPaginaSolicitacaoAnaliseEnviadaSucesso() {
 }
 
 function carregaPaginaSolicitacaoAnaliseEnviadaErro() {
-  window.location = "solicitacao_analise_enviada_erro.html"
+  window.location = "solicitacao_analise_erro.html"
 }
 
 function salvaSolicitacaoAnalise() {

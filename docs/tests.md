@@ -105,10 +105,10 @@ https://drive.google.com/file/d/1wQtcjKwtt_TjgORe9SgpJsKTx26VC_AM/view
 CT-02 - Realizar Cadastro<br>
 https://drive.google.com/file/d/1ramCHF9xxV65_XEJq_P4up4uAxGbbGMF/view
 
-CT-03 - Aterar dados do cadastro
+CT-03 - Aterar dados do cadastro<br>
 https://drive.google.com/file/d/1ZaIKtIQrDZJpxg9cfBVhcAHdN3qGLht/view?usp=sharing
 
-CT-03NF - Validar que aplicação dispara requisição HTTP
+CT-03NF - Validar que aplicação dispara requisição HTTP<br>
 https://drive.google.com/file/d/1LcsJLB-KTC-vjbw4Vh0rI_A4yhlOoZHP/view?usp=sharing
 
 CT-04 - Realizar consulta de cadastro<br>
@@ -120,13 +120,13 @@ https://drive.google.com/file/d/1D8BdxSzGTsD-A5lT8_VFEvyFBSIica21/view
 CT-06 - Realizar a exclusão do cadastro<br>
 https://drive.google.com/file/d/1OmY3kNadso-6CCJFbMf3TxVJtspwOSNk/view?usp=sharing
 
-CT-07 - Enviar solicitação de análise de proposta de crédito consignado
+CT-07 - Enviar solicitação de análise de proposta de crédito consignado<br>
 https://drive.google.com/file/d/1LFri7XK_vqlK-oF_4HqTGXPak0ysFayA/view?usp=sharing
 
-CT-08 - Consultar histórico de análise após solicitar análise
+CT-08 - Consultar histórico de análise após solicitar análise<br>
 https://drive.google.com/file/d/1n5-hSgnoDjGJddDqCduPaZwkNCM7sEbI/view?usp=sharing
 
-CT-09 - Acessar email de notificação da solicitação de análise de crédito consignado
+CT-09 - Acessar email de notificação da solicitação de análise de crédito consignado<br>
 https://drive.google.com/file/d/1iprCxawZYu7uZd4rQ-pHQ64Gk1293EkG/view?usp=sharing
 
 CT-010 - Acesso ao conteúdeo de educação financeira<br>

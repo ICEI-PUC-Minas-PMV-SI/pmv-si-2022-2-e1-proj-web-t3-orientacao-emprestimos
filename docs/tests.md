@@ -108,7 +108,9 @@ https://drive.google.com/file/d/1k3GR2aIA8mTdObQHIx-f7PrZtVV6uXCX/view?usp=shari
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+A aplicação apresenta um bom funcionamento com base nos requisitos funcionais previamente definidos, a interface é amigável e intuitiva permitindo fácil acesso ao conteúdo sobre educação financeira, criação e acesso à conta, acesso a páginas de  análise, histórico de solicitações e ofertas.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Por outro lado, a forma com que o sistema se comunica com o usuário ( Telas de sucesso e Alertas) não está 100% padronizada, o sistema não é responsivo em sua totalidade apresentando bugs visuais em determinados momentos do uso.
+
+Onde tais requisitos não foram atendidos por falta de habilidade técnica da equipe, e a ausência de membros no decorrer da etapa.  
+

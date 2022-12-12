@@ -91,20 +91,40 @@
 |Passos| 1. Acessar o navegador <br> 2. Informar o endereço do site <br>  3. Clicar na opção Entrar <br> 4. Realizar Login <br> 5. Selecionar o banco desejado e escrever a avaliação <br> 7. Clicar no botão de enviar|
 |Critério de êxito| O site deve mostrar uma mensagem de confirmação de que a avaliação foi enviada |
 
+|Caso de teste    | CT-13 - Responsividade |
+|------|-----------------------------------------|
+|Requisito associado| RNF-01 O sistema deve ter uma inteface responsiva |
+|Objetivo do teste | Validar que o usuário consiga enviar uma avaliação de uma das instituições da lista de bancos cadastrados. |
+|Passos| 1. Acessar o navegador <br> 2. Verificar a responsividade na tela de inicio, ofertas e cadastro |
+|Critério de êxito| O site deve mostrar uma mensagem de confirmação de que a avaliação foi enviada |
 
 # Registro de Testes de Software
+CT-01 - Realizar Login<br>
+https://drive.google.com/file/d/1wQtcjKwtt_TjgORe9SgpJsKTx26VC_AM/view
 
-CT-04 - Realizar consulta de cadastro
+CT-02 -  Realizar Cadastro<br>
+https://drive.google.com/file/d/1ramCHF9xxV65_XEJq_P4up4uAxGbbGMF/view
+
+CT-04 - Realizar consulta de cadastro<br>
 https://drive.google.com/file/d/18Ugs6WvDB9r-1m6FVLaSXVYfhnEesysR/view?usp=sharing
 
-CT-06 - Realizar a exclusão do cadastro
+CT-05 - Realizar alteração de senha<br>
+https://drive.google.com/file/d/1D8BdxSzGTsD-A5lT8_VFEvyFBSIica21/view
+
+CT-06 - Realizar a exclusão do cadastro<br>
 https://drive.google.com/file/d/1OmY3kNadso-6CCJFbMf3TxVJtspwOSNk/view?usp=sharing
 
-CT-11 - Visualizar lista de bancos
+CT-010 - Acesso ao conteúdeo de educação financeira<br>
+https://drive.google.com/file/d/1iy7ysW0mGiwRIoIMSHHCDDxXy93IHUFC/view
+
+CT-11 - Visualizar lista de bancos<br>
 https://drive.google.com/file/d/1GgMXRft5tkAi6kwRJLjYWC7JdOrg1dJS/view?usp=sharing
 
-CT-12 - Realizar avaliação de uma instituição cadastrada
+CT-12 - Realizar avaliação de uma instituição cadastrada<br>
 https://drive.google.com/file/d/1k3GR2aIA8mTdObQHIx-f7PrZtVV6uXCX/view?usp=sharing
+
+CT-13 Resposividade<br>
+https://drive.google.com/file/d/1yrJOiPkRK1v6T27uK6mfHgKWtdDYooSe/view
 
 ## Avaliação
 

@@ -1,5 +1,17 @@
 
-    .feature {
+   
+   
+   a {
+
+    text-decoration: none;
+
+    color: inherit
+
+}
+   
+
+   
+   .feature {
       display: inline-flex;
       align-items: left;
       justify-content: center;
@@ -18,29 +30,35 @@
     }
     div.container.px-5.my-5 {
       padding-bottom: 3rem!important;
-      font-family: 32px, Graphik, sans-serif !important;
+      font-family: 32px, 'GraphikLight', sans-serif !important;
+    
 
     }
 
-
-
+    
+      
     /* NAVBAR */
-    .navbar {
-      background-color: #EDF0EF;
+    .nabvbar {
+      background-color: #EDF0EF ;
     }
     a.navbar-brand {
-      font: 38px ''Graphik'', sans-serif;
+      font: 38px 'GraphikLight', sans-serif;
       color: #474e52!important;
     }
     .navbar-dark navbar-brand {
-      font: 48px 'Graphik', sans-serif;
+      font: 48px 'GraphikLight', sans-serif;
     }
     .navbar-dark .navbar-nav .nav-link {
       color: #767f83!important;
-      font: 14px 'Graphik', sans-serif !important;
+      font: 14px 'GraphikLight', sans-serif !important;
       text-transform: capitalize;
     }
     
+    .navbar-toggler { 
+      background-color: #2F3E46!important;
+      width: fit-content;
+      display: flex;
+           padding: 30px;}
     ul.dropdown-menu.dropdown-menu-end.show {
       color: #79799c;
       border: solid 1px #2f3e46;
@@ -83,7 +101,7 @@
       letter-spacing: 0.5px;
       transition: all .3s;
       overflow: hidden;
-      font-family: 10 px, Graphik, sans-serif !important;
+      font-family: 10 px, 'GraphikLight', sans-serif !important;
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
       -moz-transition: all 0.5s ease-in-out;
     }
@@ -98,7 +116,7 @@
       letter-spacing: 0.5px;
       transition: all .3s;
       overflow: hidden;
-      font-family: 8px, Graphik, sans-serif !important;
+      font-family: 8px, 'GraphikLight', sans-serif !important;
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
       -moz-transition: all 0.5s ease-in-out;}
 
@@ -134,15 +152,15 @@
     /* ARTIGOS */
     #topico1 {
       background-color: #28C76F!important;
-      font-family: 32px, Graphik, sans-serif !important;
+      font-family: 32px, 'GraphikLight', sans-serif !important;
     }
     #topico2 {
       background-color: #28C76F!important;
-      font-family: 32px, Graphik, sans-serif !important;
+      font-family: 32px, 'GraphikLight', sans-serif !important;
     }
     #topico3 {
       background-color: #28C76F!important;
-      font-family: 32px, Graphik, sans-serif !important;
+      font-family: 32px, 'GraphikLight', sans-serif !important;
     }
     
      a.stretched-link.text-decoration-none {
@@ -158,7 +176,7 @@
       color: #2F3E46;
     }
     /* NOTICIAS */
-    id.py-5 { font-family: 32px, 'Graphik', sans-serif !important}
+    id.py-5 { font-family: 32px, 'GraphikLight', sans-serif !important}
     #news {
       background-color: #28c76f!important;
     }
@@ -177,7 +195,8 @@
     
     /*FOOTER*/
     #footer {
-      background-color: #51b68e !important;
+      background-color: #9ad4bb !important;
+      font-family: 'GraphikLight', 32px, #141615 !important; 
      
     }
     #testemunho01.text-destaq, #testemunho02.text-destaq, #testemunho03.text-destaq {
@@ -187,15 +206,19 @@
 }
 
 .text-destaq {
-    font-family: "Bitter", sans-serif !important;
+    font-family: "Bitter", #ff8f10, sans-serif !important;
 }
    
+        
     
-    
-    
-    
-    
-    
+@font-face {
+  font-family: 'GraphikLight';
+  src: url('../D:\ConsigFacil\fonts\GraphikLightBlack\GraphikLightLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'GraphikLightBlack';
+  src: url('../font/GraphikLightBlack/GraphikLightBlack.otf') format('opentype');
     
     
     

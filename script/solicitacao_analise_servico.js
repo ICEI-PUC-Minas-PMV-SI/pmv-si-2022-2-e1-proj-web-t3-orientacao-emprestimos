@@ -168,8 +168,8 @@ document.getElementById('form_analise').addEventListener('submit', function(even
   }
 
   emailjs.send(serviceID, templateID, solicitacaoAnalise).then(() => {
-    salvaSolicitacaoAnalise()
-    carregaPaginaSolicitacaoAnaliseEnviadaSucesso()
+    alert("Solicitação de análise enviada com sucesso!")
+    carregaPaginaHistoricoSolicitacoesAnalise()
   }, (err) => {
     carregaPaginaSolicitacaoAnaliseEnviadaErro()
   })
@@ -181,6 +181,10 @@ function carregaPaginaSolicitacaoAnaliseEnviadaSucesso() {
 
 function carregaPaginaSolicitacaoAnaliseEnviadaErro() {
   window.location = "solicitacao_analise_erro.html"
+}
+
+function carregaPaginaHistoricoSolicitacoesAnalise() {
+  window.location = "historico.html"
 }
 
 function salvaSolicitacaoAnalise() {

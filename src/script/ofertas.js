@@ -6,7 +6,7 @@ function calcular1() {
     var juros = n1 * 0.1730 * select.options[select.selectedIndex].value;
     total = juros + n1
     parcelas = total / Number(select.options[select.selectedIndex].text)
-    tot.innerHTML = `R$${total.toFixed(2)}`;
+    tot.innerHTML = `R$${parcelas.toFixed(2)}`;
 }
 function calcular2() {
     var tn2 = window.document.getElementById('txtn2')
@@ -16,7 +16,7 @@ function calcular2() {
     var juros = n2 * 0.1848 * select.options[select.selectedIndex].value;
     total = juros + n2
     parcelas = total / Number(select.options[select.selectedIndex].text)
-    tot.innerHTML = `R$${total.toFixed(2)}`;
+    tot.innerHTML = `R$${parcelas.toFixed(2)}`;
 }
 function calcular3() {
     var tn3 = window.document.getElementById('txtn3')
@@ -26,7 +26,7 @@ function calcular3() {
     var juros = n3 * 0.1464 * select.options[select.selectedIndex].value;
     total = juros + n3
     parcelas = total / Number(select.options[select.selectedIndex].text)
-    tot.innerHTML = `R$${total.toFixed(2)}`;
+    tot.innerHTML = `R$${parcelas.toFixed(2)}`;
 }
 
 enviarbtn = window.document.getElementById('enviar')

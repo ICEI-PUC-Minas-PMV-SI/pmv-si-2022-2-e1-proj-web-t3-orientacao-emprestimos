@@ -149,3 +149,26 @@ Por outro lado, a forma com que o sistema se comunica com o usuário ( Telas de 
 
 Onde tais requisitos não foram atendidos por falta de habilidade técnica da equipe, e a ausência de membros no decorrer da etapa.  
 
+## Avaliação do Usuário
+
+O usuário selecionado para realizar os testes tem 20 anos, é estudante e trabalha na iniciativa privada, ao utilizar o sistema o usuário avaliou os testes da seguinte forma:
+
+As funcionalidades referentes aos casos de teste CT - 1, 2, 4, 5, 6, 9, 11, 12 não apresentaram erros, funcionaram perfeitamente e sem nenhuma sugestão de melhoria por parte do usuário.
+
+As funcionalidades referentes aos casos de teste CT - 3, 7, 8, 10 apresentaram problemas em sua execução:
+
+CT - 03 - Alterar dados do cadastro:
+Na parte de alteração de cadastro, o campo “Sobrenome” não sofreu alteração, após sair do site e entrar novamente todas as alterações são perdidas e não foi possível fazer o login com o e-mail alterado.
+
+
+CT-07 - Enviar solicitação de análise de proposta de crédito consignado:
+No momento do envio correu tudo bem, porém a tela de sucesso não funcionou como deveria e não foi informado onde deveria ver a resposta  da análise.
+
+
+CT-08 - Consultar histórico de análise após solicitar análise:
+Insatisfeita, a página do histórico é muito confusa, com divisões pouco visíveis entre as análises.
+
+CT-010 - Acessar os conteúdos de Educação Financeira:
+A página não possui conteúdo suficiente.
+
+
